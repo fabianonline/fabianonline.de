@@ -1,0 +1,19 @@
+--- 
+layout: post
+title: Bye-bye
+tags: 
+- kurioses
+---
+Vorhin im "Gespräch" mit einem SMTP-Server:
+
+<code>
+[...]
+250 Ok: queued as A68DE1FC597
+BYE
+502 Error: command not implemented
+QUIT
+221 Bye
+Connection closed by foreign host.
+</code>
+
+Ich habe mich erst leicht verarscht gefühlt, musste dann aber doch ziemlich lachen...

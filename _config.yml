@@ -1,0 +1,8 @@
+pygments: true
+#lsi: true
+permalink: pretty
+base_url: /jekyll/_site
+rdiscount:
+  extensions: []
+markdown: rdiscount
+

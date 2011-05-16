@@ -1,0 +1,9 @@
+--- 
+layout: post
+title: Campusfest 2009
+tags: 
+- uni
+- ufc
+---
+Morgen findet an der TU Dortmund das diesjährige Campusfest statt. Natürlich bin ich dieses Jahr auch wieder beteiligt - dieses Mal jedoch nicht am Stand der Fachschaft Informatik, sondern stelle den UFC vor. Sowohl um 11 als auch um 14 Uhr werden wir an unserer "Standard-Location" (EF50 HS1; auf der Übersichtskarte auf den Campusfest-Flyern hat das Gebäude die Nummer 8) einen Vortrag halten: "Wie funktioniert eigentlich... Kino?"
+Dabei werden wir u.a. auch mal unseren 35mm-Projektor anwerfen und vorführen, was bei Filmvorführungen so alles schief gehen kann. Der Eintritt ist natürlich frei.

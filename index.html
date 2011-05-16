@@ -1,0 +1,9 @@
+---
+layout: default
+---
+
+<ul class="posts">
+  {% for post in site.posts %}
+    {% include post_short.html %}
+  {% endfor %}
+</ul>
