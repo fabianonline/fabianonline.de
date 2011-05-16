@@ -1,17 +1,15 @@
 ---
-title: Test
+layout: post
+title: "Titel"
+published: true
 tags:
-  - test
-  - jekyll
+  - tag_1
+  - tag_2
+excerpt: |- text
+  Bla,
+  bla,
+  bla.
 ---
 
-Überschrift
-===========
+der eigentliche blogeintrag
 
-Dies ist ein Test-Text.
-
-- Und eine Liste.
-- Ungeordnet.
-
-1. Und geordnet.
-2. wirklich.
