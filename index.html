@@ -2,8 +2,23 @@
 layout: default
 ---
 
+<h1>Neueste Einträge</h1>
 <ul class="posts">
-  {% for post in site.posts %}
-    {% include post_short.html %}
+  {% for post in site.posts limit:1%}
+    <li class="post level_1">
+      {% include post_medium.html %}
+    </li>
+  {% endfor %}
+
+  {% for post in site.posts limit:9 offset:1 %}
+    <li class="post level_2">
+      {% include post_medium.html %}
+    </li>
+  {% endfor %}
+
+  {% for post in site.posts limit:10 offset:10 %}
+    <li class="post level_3">
+      {% include post_short.html %}
+    </li>
   {% endfor %}
 </ul>

@@ -1,0 +1,10 @@
+{% include post_short.html %}
+{% if post.excerpt %}
+  {{post.excerpt}}
+{% else %}
+  {{post.content | truncatewords: site.auto_excerpt_length}}...
+{% endif %}
+
+{% unless post.tags.empty %}
+  <div class="tags">{{post.tags | join:", "}}</div>
+{% endunless %}

@@ -6,3 +6,6 @@ rdiscount:
   extensions: []
 markdown: rdiscount
 
+# user defined variables
+auto_excerpt_length: 20
+
