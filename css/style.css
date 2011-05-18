@@ -1,0 +1,49 @@
+body, article {
+    font-family: Helvetica, Verdana, sans-serif;
+    background-color: #00f;
+}
+
+ul.posts {
+    list-style-type: none;
+    padding-left: none;
+}
+
+article {
+    background-color: #aaf;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    box-shadow: 5px 5px 2px #fa0;
+    -moz-box-shadow: 5px 5px 2px #fa0;
+    -webkit-box-shadow: 5px 5px 2px #fa0;
+}
+
+article time {
+    float: left;
+    color: #aaa;
+    margin-right: 10px;
+}
+
+header, header h1, article time {
+    clear: left;
+    font-size: 25px;
+    display: inline;
+}
+
+header h1 {
+    color: #fa0;
+    font-weight: normal;
+}
+
+header h1 a {
+    color: #fa0;
+    text-decoration: none;
+    text-shadow: 0.1em 0.1em 0.1em #333;
+}
+
+
+footer {
+    color: #aaa;
+    text-transform: uppercase;
+}
