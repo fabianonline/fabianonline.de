@@ -1,2 +1,13 @@
-<h2><a href="{{ site.base_url }}{{ post.url }}" title="{{post.title}}">{{post.title}}</a></h2>
-<span>{{post.date | date_to_string}}</span>
+<article>
+  <time datetime="{{ post.date | date_to_xmlschema }}" pubdate="pubdate">{{ post.date | date:"%d.%m.%y" }}</time>
+  <header>
+    <h1><a href="{{ site.base_url }}{{ post.url }}" title="{{post.title}}">{{post.title}}</a></h1>
+  </header>
+
+  {% unless post.tags.empty %}
+  <footer>
+    Tags: {{ post.tags | join: ", " }}
+  </footer>
+  {% endunless %}
+</article>
+

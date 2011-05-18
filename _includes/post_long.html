@@ -1,15 +1,11 @@
 <article>
-  <time datetime="{{ post.date | date_to_xmlschema }}" pubdate="pubdate">{{ post.date | date:"%d.%m.%y" }}</time>
+  <time datetime="{{ site.time | date_to_xmlschema }}" pubdate="pubdate">{{ site.time | date:"%d.%m.%y" }}</time>
   <header>
     <h1><a href="{{ site.base_url }}{{ post.url }}" title="{{post.title}}">{{post.title}}</a></h1>
   </header>
 
   <div class="content excerpt">
-  {% if post.excerpt %}
-    <p>{{ post.excerpt }}</p>
-  {% else %}
-    {{ post.content | truncatewords: site.auto_excerpt_length}}
-  {% endif %}
+    {{ post.content }}
   </div>
 
   {% unless post.tags.empty %}
