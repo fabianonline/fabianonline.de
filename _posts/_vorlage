@@ -1,10 +1,12 @@
 ---
+layout: post
 title: "Titel"
 published: true
 tags:
   - tag_1
   - tag_2
-description: -| text
+description: -|
+  text
   Bla,
   bla,
   bla.

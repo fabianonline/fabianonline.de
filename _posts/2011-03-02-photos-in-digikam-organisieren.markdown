@@ -5,6 +5,7 @@ excerpt: "Wie organisiere ich meine ganzen Fotos sinnvoll in DigiKam? Als Hinter
 tags: []
 
 ---
+
 Dieser Post ist jetzt mal mehr für mich gedacht, so als Gedankenstütze, aber vielleicht ist er für euch ja auch recht nützlich oder informativ...
 
 Wie organisiere ich meine ganzen Fotos sinnvoll in DigiKam? Als Hintergrund: Ich habe etwa 24000 Fotos auf meiner Festplatte. Die sind allerdings zum Einen ziemlich unsortiert (es gibt Ordner nach Events, das wars aber auch schon) und überhaupt nicht selektiert: <strong>Jedes</strong> Foto, welches ich jemals geschossen habe, ist in diesen Ordnern enthalten. Jedes.

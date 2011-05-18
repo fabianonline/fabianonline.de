@@ -5,7 +5,8 @@ published: true
 tags:
   - tag_1
   - tag_2
-excerpt: |- text
+excerpt: |-
+  text
   Bla,
   bla,
   bla.
