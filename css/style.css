@@ -1,49 +1,75 @@
-body, article {
-    font-family: Helvetica, Verdana, sans-serif;
-    background-color: #00f;
+body {
+	background-color: #ddd;
+    margin-top: 0px;
+    font-family: "Trebuchet MS", Helvetica, Verdana, sans-serif;
 }
 
-ul.posts {
-    list-style-type: none;
-    padding-left: none;
+#everything {
+	margin-left: auto;
+	margin-right: auto;
+	width: 800px;
+    border: 1px solid #bbb;
+    border-top: none;
+    padding: 10px;
+    background-color: #fff;
 }
 
-article {
-    background-color: #aaf;
-    -moz-border-radius: 15px;
-    -webkit-border-radius: 15px;
-    border-radius: 15px;
-    margin-bottom: 10px;
-    box-shadow: 5px 5px 2px #fa0;
-    -moz-box-shadow: 5px 5px 2px #fa0;
-    -webkit-box-shadow: 5px 5px 2px #fa0;
-}
-
-article time {
+header #title {
+    height: 80px;
+    width: 250px;
+    background-color: #ff7800;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #f23700), color-stop(1, #ff7800));
+    background: -moz-linear-gradient(top, #f23700, #ff7800);
+    background: -o-linear-gradient(top, #f23700, #ff7800);
+    background: -ms-linear-gradient(top, #f23700, #ff7800);
+    margin-right: 15px;
     float: left;
-    color: #aaa;
-    margin-right: 10px;
+    color: #fff;
+    padding-left: 10px;
+    border-right: 10px solid #fff;
 }
 
-header, header h1, article time {
-    clear: left;
-    font-size: 25px;
-    display: inline;
+header #title h1 {
+    font-size: 23px;
+    letter-spacing: -1px;
+    margin-top: 15px;
+    margin-bottom: 0px;
 }
 
-header h1 {
-    color: #fa0;
+header #title h2 {
+    font-size: 16px;
+    letter-spacing: -1px;
+    margin-top: -5px;
     font-weight: normal;
 }
 
+header #header_image {
+    height: 80px;
+    width: 100%;
+    background-image: url(/jekyll/_site/images/headerbild.png);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+header {
+    margin-bottom: 25px;
+}
+
+article {
+}
+
+article time {
+}
+
+header, header h1, article time {
+}
+
+header h1 {
+}
+
 header h1 a {
-    color: #fa0;
-    text-decoration: none;
-    text-shadow: 0.1em 0.1em 0.1em #333;
 }
 
 
 footer {
-    color: #aaa;
-    text-transform: uppercase;
 }
