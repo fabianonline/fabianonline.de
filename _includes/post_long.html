@@ -1,8 +1,5 @@
 <article>
-  <time datetime="{{ site.time | date_to_xmlschema }}" pubdate="pubdate">{{ site.time | date:"%d.%m.%y" }}</time>
-  <header>
-    <h1><a href="{{ site.base_url }}{{ post.url }}" title="{{post.title}}">{{post.title}}</a></h1>
-  </header>
+  {% include post_header.html %}
 
   <div class="content excerpt">
     {{ post.content }}
