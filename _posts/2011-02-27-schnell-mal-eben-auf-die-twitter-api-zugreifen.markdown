@@ -15,7 +15,7 @@ Seitdem Twitter von Basic Auth auf OAuth umgestellt hat, ist der Zugriff auf die
 <li>Als Organisation tragt euren Twitter-Login ein.</li>
 <li>Application-Type ist "Browser".</li>
 <li>Eine "Callback-URL" braucht ihr hier eigentlich nicht, allerdings will Twitter eine, also tragt hier einfach die Adresse eures Blogs ein oder so.</li>
-<li>"Default Access Type" sollte "Read &amp; Write" sein, außer, euer Bot soll ausschließlich Tweets lesen und selber nix versenden.</li>
+<li>"Default Access Type" sollte "Read & Write" sein, außer, euer Bot soll ausschließlich Tweets lesen und selber nix versenden.</li>
 <li>Dann noch den Captcha-Code eingeben und fertig.</li>
 </ul></li>
 <li>Ihr kommt dann auf die Übersichtsseite zu eurer neuen App. Von hier braucht ihr die Werte "Consumer key" und "Consumer secret". Kopiert euch die Werte irgendwo hin, und haltet sie nach Möglichkeit geheim.</li>
@@ -24,8 +24,8 @@ Seitdem Twitter von Basic Auth auf OAuth umgestellt hat, ist der Zugriff auf die
 <li>Jetzt geht's ans Code Schreiben. In diesem Tutorial schreiben wir eine kleine App, die einen "Hallo Welt"-Tweet absendet.Erstellt eine weitere PHP-Datei im gleichen Ordner. </li>
 <li>Ihr braucht zwei PHP-Libraries: <a href="http://github.com/abraham/twitteroauth/raw/master/twitteroauth/OAuth.php">OAuth.php</a> und <a href="http://github.com/abraham/twitteroauth/raw/master/twitteroauth/twitteroauth.php">twitteroauth.php</a>. Ladet beide Dateien herunter und speichert sie in einem Ordner.</li>
 <li>Dazu kommt dann noch ein bisschen Code von euch:
-{% highlight php %}
-<?php
+<code>
+&lt;?php
 require_once('twitteroauth.php');
 define('OAUTH_CONSUMER_KEY', 'abc123');
 define('OAUTH_CONSUMER_SECRET', 'def456');
@@ -33,7 +33,7 @@ define('OAUTH_ACCESS_TOKEN', 'ghi789');
 define('OAUTH_ACCESS_TOKEN_SECRET', 'jkl012');
 $conn = new TwitterOAuth(OAUTH_CONSUMER_KEY, OAUTH_CONSUMER_SECRET, OAUTH_ACCESS_TOKEN, OAUTH_ACCESS_TOKEN_SECRET);
 $conn->post('statuses/update', array('status'=>'Hallo, Welt!'));
-{% endhighlight %}
+</code>
 Bei den vier define-Anweisungen ersetzt ihr die vier Demo-Werte durch die Werte, die ihr von Twitter bekommen habt.</li>
 <li>Was der Code macht:<ul>
 <li>In Zeile 2 wird die Library, die ihr runtergeladen habt, eingebunden.</li>

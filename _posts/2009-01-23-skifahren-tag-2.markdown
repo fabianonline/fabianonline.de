@@ -4,7 +4,7 @@ title: "Skifahren: Tag 2"
 tags: 
 - sonstiges
 ---
-[caption id="attachment_187" align="alignright" width="150" caption="Panorama über die Tauplitzalm"]<a href="http://blog.fabianonline.deturbo.paulstamatiou.com/uploads/2009/01/102klein.jpg"><img src="http://blog.fabianonline.deturbo.paulstamatiou.com/uploads/2009/01/102klein-150x150.jpg" alt="Panorama über die Tauplitzalm" title="Panorama über die Tauplitzalm" width="150" height="150" class="size-thumbnail wp-image-187" /></a>[/caption]So, jetzt ist auch mein zweiter (kompletter) Tag auf der Tauplitzalm zu Ende...
+[caption id="attachment_187" align="alignright" width="150" caption="Panorama über die Tauplitzalm"]<a href="http://blog.fabianonline.de/wp-content/uploads/2009/01/102klein.jpg"><img src="http://blog.fabianonline.de/wp-content/uploads/2009/01/102klein-150x150.jpg" alt="Panorama über die Tauplitzalm" title="Panorama über die Tauplitzalm" width="150" height="150" class="size-thumbnail wp-image-187" /></a>[/caption]So, jetzt ist auch mein zweiter (kompletter) Tag auf der Tauplitzalm zu Ende...
 Das Ski fahren macht echt Spaß; vor Allem die Tatsache, dass wir ja nun schon ein bisschen außerhalb irgendeiner Saison sind, sorgt dafür, dass die Pisten richtig schön leer sind. Es gibt beim Skifahren nichts nervigeres, als wenn man vor sich einen Stau auf der Piste hat.
 Der Schnee ist ziemlich gut, nur gegen Abend lässt er leider nach. Aber besonders morgens ist das Fahren auf frisch präparierten Pisten einfach nur geil.
 <!--more-->

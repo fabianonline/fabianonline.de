@@ -6,4 +6,4 @@ tags:
 - fotos
 ---
 Dies ist nur ein Test.
-<p><a href="http://blog.fabianonline.deturbo.paulstamatiou.com/uploads/2008/12/p-640-480-749b6e06-4369-4b50-b0c5-a90216027359.jpeg"><img src="http://blog.fabianonline.deturbo.paulstamatiou.com/uploads/2008/12/p-640-480-749b6e06-4369-4b50-b0c5-a90216027359.jpeg" alt="" width="225" height="300" class="alignnone size-full wp-image-364" /></a></p>
+<p><a href="http://blog.fabianonline.de/wp-content/uploads/2008/12/p-640-480-749b6e06-4369-4b50-b0c5-a90216027359.jpeg"><img src="http://blog.fabianonline.de/wp-content/uploads/2008/12/p-640-480-749b6e06-4369-4b50-b0c5-a90216027359.jpeg" alt="" width="225" height="300" class="alignnone size-full wp-image-364" /></a></p>
