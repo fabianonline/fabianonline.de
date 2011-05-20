@@ -12,5 +12,83 @@ excerpt: |-
   bla.
 ---
 
-der eigentliche blogeintrag
+Ein Blogeintrag mit vielen Tests.
+Hier mal ein etwas längerer Fließtext (u.a. mit Sonderzeichen und so). Lorem ipsum dolor sit amet,
+consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna 
+aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet 
+clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor 
+sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore 
+magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.  
+Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+Die vorletzte Zeile sollte dabei dann eigentlich einzeln stehen. Und dieser Satz in einem eigenen
+Codeblock.
+
+Dies ist ein H1
+===============
+Ja, wirklich. Mit einem bisschen Text dazu.
+
+Und dies ein H2
+---------------
+Ebenso. Das sollte eigentlich reichen, oder? Ja.
+
+> Blockquotes. Hier mit zwei Absätzen.. Lorem ipsum dolor sit amet,
+> consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
+> Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
+> 
+> Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
+> id sem consectetuer libero luctus adipiscing.
+>
+> # Mit einem enthaltenen Header.
+> > Und mit mehreren Ebenen.
+> > Wirklich.
+
+Listen
+------
+
+* Eine unordered List.
+* Mit
+* genau
+* fünf
+* Punkten.
+
+Trenn-Text.
+
+1. Eins
+2. Zwei
+3. Drei
+4. Vier
+5. Fünf
+
+Nochmal Trenn-Text.
+
+* Listen gehen natürlich auch mit mehr Text.
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+* Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+
+Code-Blöcke
+-----------
+
+{% highlight ruby %}
+puts "Ruby ist cool."
+puts "Ja, wirklich"*5
+{% endhighlight %}
+
+Oder aber auch Code wie z.B. `echo foo();` mitten im Text.
+
+Linien
+------
+Text Zeile 1
+
+---
+
+Text Zeile 2.
+
+Links
+-----
+Kennt ihr denn alle schon [google](http://www.google.de "Google")?
+
+Markup
+------
+Hier mal eine Zeile, in der sowohl *kursiver Text* als auch **fetter Text** vorkommen.
 
