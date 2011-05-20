@@ -2,7 +2,12 @@
   {% include post_header.html %}
 
   <div class="content">
-    {{ post.content }}
+    {% unless post %}
+      {{content}}
+      {% assign post = page %}
+    {% else %}
+      {{ post.content }}
+    {% endunless %}
   </div>
 
   {% unless post.tags.empty %}
