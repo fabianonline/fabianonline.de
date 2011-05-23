@@ -2,7 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8" />
+    {% if page.title %}
     <title>fabianonline.de / {{ page.title }}</title>
+    {% else %}
+    <title>fabianonline.de</title>
+    {% endif %}
     <link href="{{ site.base_url }}/css/pygments.css" rel="stylesheet" type="text/css" />
     <link href="{{ site.base_url }}/css/style.css" rel="stylesheet" type="text/css" />
   </head>
