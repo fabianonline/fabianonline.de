@@ -2,12 +2,14 @@
   {% include post_header.html %}
 
   <div class="content excerpt">
+  <p>
   {% if post.excerpt %}
-    <p>{{ post.excerpt }}</p>
+    {{ post.excerpt }}
   {% else %}
     {{ post.content | truncatewords: site.auto_excerpt_length}}
   {% endif %}
-  <a href="{{ post.url }}">weiterlesen</a>
+  <a href="{{ post.url }}" class="read_more">weiterlesen</a>
+  </p>
   </div>
 
   {% unless post.tags.empty %}
