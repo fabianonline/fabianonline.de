@@ -1,7 +1,7 @@
 pygments: true
 #lsi: true
 permalink: pretty
-base_url: /
+base_url: ""
 rdiscount:
   extensions: []
 markdown: rdiscount
