@@ -1,10 +1,11 @@
 pygments: true
 #lsi: true
 permalink: pretty
-base_url: /jekyll/_site
+base_url: /
 rdiscount:
   extensions: []
 markdown: rdiscount
+paginate: 10
 
 # user defined variables
 auto_excerpt_length: 20

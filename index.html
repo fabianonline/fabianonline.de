@@ -2,10 +2,27 @@
 layout: default
 ---
 
-{% for post in site.posts limit:10%}
+{% for post in paginator.posts %}
   {% include post_medium.html %}
 {% endfor %}
 
-{% for post in site.posts limit:10 offset:10 %}
-  {% include post_short.html %}
-{% endfor %}
+
+<nav id="pages">
+{% if paginator.previous_page %}
+    <a href="{{base_url}}page{{paginator.previous_page}}" class="previous">&lt;&lt; Vorige Seite</a>
+{% else %}
+    <span class="previous">&lt;&lt; Vorige Seite</a>
+{% endif %}
+
+&bull;
+
+Seite {{paginator.page}} von {{paginator.total_pages}}
+
+&bull;
+
+{% if paginator.next_page %}
+    <a href="{{base_url}}page{{paginator.next_page}}" class="next">Nächste Seite &gt;&gt;</a>
+{% else %}
+    <span class="previous">Nächste Seite &gt;&gt;</a>
+{% endif %}
+</nav>
