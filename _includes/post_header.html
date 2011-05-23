@@ -5,7 +5,7 @@
 {% endunless %}
 
 <header>
-    <h1><a href="{{ site.base_url }}/{{ special_post.url }}" title="{{special_post.title | escape}}">{{special_post.title}}</a></h1>
+    <h1><a href="{{ site.base_url }}{{ special_post.url }}" title="{{special_post.title | escape}}">{{special_post.title}}</a></h1>
     <time datetime="{{ special_post.date | date_to_xmlschema }}" pubdate="pubdate">{{ special_post.date | date:"%d.%m.%Y" }}</time>
     <br style="clear: both; height: 0px;" />
 </header>
