@@ -5,7 +5,7 @@ tags:
 - fotos
 - uni
 ---
-<img src="http://blog.fabianonline.de/wp-content/main/2010_05/IMG_0243.jpg" alt="IMG_0243 - Aufzug mit Offset" class="aligncenter" /><br />
+<img src="/uploads/images/2010_05/IMG_0243.jpg" alt="IMG_0243 - Aufzug mit Offset" class="aligncenter" /><br />
 <strong>Ort:</strong> GB5<br />
 <strong>Datum / Uhrzeit:</strong> 2009:10:21 09:46:02<br />
 <br />

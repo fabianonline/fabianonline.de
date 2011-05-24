@@ -5,7 +5,7 @@ tags:
 - fotos
 - kino
 ---
-<img src="http://blog.fabianonline.de/wp-content/main/2010_03/IMG_0111.jpg" alt="IMG_0111 - Schlaufen" class="aligncenter" /><br />
+<img src="/uploads/images/2010_03/IMG_0111.jpg" alt="IMG_0111 - Schlaufen" class="aligncenter" /><br />
 <strong>Ort:</strong> Schauburg<br />
 <strong>Datum / Uhrzeit:</strong> 2009:07:13 17:44:37<br />
 <br />

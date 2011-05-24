@@ -5,7 +5,7 @@ tags:
 - fotos
 - aaron
 ---
-<img src="http://blog.fabianonline.de/wp-content/main/2010_03/IMG_0060.jpg" alt="IMG_0060 - Gekämmt werdender Hund" class="aligncenter" /><br />
+<img src="/uploads/images/2010_03/IMG_0060.jpg" alt="IMG_0060 - Gekämmt werdender Hund" class="aligncenter" /><br />
 <strong>Ort:</strong> Zu Hause<br />
 <br />
 <br />

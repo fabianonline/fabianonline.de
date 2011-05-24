@@ -6,7 +6,7 @@ tags:
 ---
 Meine Güte, war das langweilig.
 
-Ich hatte ja gestern Abend <a href="http://blog.fabianonline.de/2009/06/06/live-blogging-das-grose-kipp-roll-fall-spektakel/">live mitgebloggt</a> - und das war dann auch irgendwann der einzige Grund für mich, die Sendung weiterzuschauen.
+Ich hatte ja gestern Abend <a href="/2009/06/06/live-blogging-das-grose-kipp-roll-fall-spektakel/">live mitgebloggt</a> - und das war dann auch irgendwann der einzige Grund für mich, die Sendung weiterzuschauen.
 Eines der Probleme dabei war dann der generelle Aufbau der Sendung: Ich wollte einfach nur eine große Rube-Goldberg-Maschine sehen, die irgendeine Aufgabe möglichst komplex erledigt. Stattdessen wurde eine Kettenreaktion gezeigt, die nicht mal ein besonderes Ziel hatte (als letzte Station wurden Luftballons steigen gelassen) und zwischendurch auch immer wieder durch "Zeitmaschinen" (was für ein blöder Name, nebenbei bemerkt) angehalten, um Werbevideos zu den Gruppen zu zeigen, die den aktuellen Teil der Kette gebaut hatten, um Interviews zu führen oder auch um eine ganz normale Werbepause zu machen. Allein dadurch bestanden bestimmt 40% der Laufzeit der Sendung (die ja insgesamt fast 4 Stunden dauerte) aus Nebensächlichkeiten. Langweiligen Nebensächlichkeiten.
 
 Dann: Die vielen Neustarts. Ich habe nochmal nachgezählt: Ich komme auf 50 von ihnen. Fünfzig! Selbst wenn die Maschine die ganzen 4 Stunden "ununterbrochen" gelaufen wäre, würde sie auf gerade mal durchschnittlich 4,8 Minuten zwischen zwei Neustarts kommen. Entschuldigung, aber bei "der größten Kettenreaktion aller Zeiten" hätte ich doch etwas mehr erwartet.

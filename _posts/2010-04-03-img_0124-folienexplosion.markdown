@@ -5,7 +5,7 @@ tags:
 - fotos
 - uni
 ---
-<img src="http://blog.fabianonline.de/wp-content/main/2010_04/IMG_0124.jpg" alt="IMG_0124 - Folienexplosion" class="aligncenter" /><br />
+<img src="/uploads/images/2010_04/IMG_0124.jpg" alt="IMG_0124 - Folienexplosion" class="aligncenter" /><br />
 <strong>Ort:</strong> EF50, HS3<br />
 <strong>Datum / Uhrzeit:</strong> 2009:07:15 19:15:24<br />
 <br />

@@ -5,7 +5,7 @@ tags:
 - fotos
 - kurioses
 ---
-<img src="http://blog.fabianonline.de/wp-content/main/2010_05/IMG_0210.jpg" alt="IMG_0210 - Groß genug für Zwei" class="aligncenter" /><br />
+<img src="/uploads/images/2010_05/IMG_0210.jpg" alt="IMG_0210 - Groß genug für Zwei" class="aligncenter" /><br />
 <strong>Ort:</strong> öhm...<br />
 <strong>Datum / Uhrzeit:</strong> 2009:09:23 17:49:58<br />
 <br />

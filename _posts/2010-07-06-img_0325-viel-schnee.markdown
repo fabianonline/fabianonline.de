@@ -4,7 +4,7 @@ title: IMG_0325 - Viel Schnee
 tags: 
 - fotos
 ---
-<img src="http://blog.fabianonline.de/wp-content/main/2010_07/IMG_0325.jpg" alt="IMG_0325 - Viel Schnee" class="aligncenter" /><br />
+<img src="/uploads/images/2010_07/IMG_0325.jpg" alt="IMG_0325 - Viel Schnee" class="aligncenter" /><br />
 <strong>Ort:</strong> Hennen<br />
 <strong>Datum / Uhrzeit:</strong> 2010:01:09 14:04:54<br />
 <br />

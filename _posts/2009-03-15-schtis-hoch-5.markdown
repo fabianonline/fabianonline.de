@@ -5,7 +5,7 @@ excerpt: "Gestern Abend habe ich mir nochmal \"Willkommen bei den Sch'tis\" ange
 tags: 
 - kino
 ---
-Gestern Abend habe ich mir <a href="http://blog.fabianonline.de/2008/12/29/willkommen-bei-den-schtis/">nochmal</a> "Willkommen bei den Sch'tis" angeschaut. Das dürfte jetzt mein fünftes oder sechstes Mal gewesen sein...
+Gestern Abend habe ich mir <a href="/2008/12/29/willkommen-bei-den-schtis/">nochmal</a> "Willkommen bei den Sch'tis" angeschaut. Das dürfte jetzt mein fünftes oder sechstes Mal gewesen sein...
 ...und der Film ist immer noch lustig. Natürlich gibt es inzwischen ein paar Stellen, die ich im Prinzip auswendig mitsprechen kann und die für mich doch etwas langweiliger als der Rest sind, weil ich genau weiß, was gleich passieren wird - aber die Szenen, in denen ich mich immer noch vor Lachen vom Sitz werfen könnte, überwiegen da doch deutlich.
 
 Ich rate euch: Schaut euch den Film im Kino an, so lange es noch möglich ist.

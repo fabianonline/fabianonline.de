@@ -4,7 +4,7 @@ title: "IMG_0165 - Sich selbst verj\xC3\xBCngende Br\xC3\xBCcke"
 tags: 
 - fotos
 ---
-<img src="http://blog.fabianonline.de/wp-content/main/2010_04/IMG_0165.jpg" alt="IMG_0165 - Sich selbst verjüngende Brücke" class="aligncenter" /><br />
+<img src="/uploads/images/2010_04/IMG_0165.jpg" alt="IMG_0165 - Sich selbst verjüngende Brücke" class="aligncenter" /><br />
 <strong>Ort:</strong> Köln<br />
 <strong>Datum / Uhrzeit:</strong> 2009:08:12 19:05:28<br />
 <br />

@@ -4,7 +4,7 @@ title: IMG_0287 - Film mit Beule
 tags: 
 - fotos
 ---
-<img src="http://blog.fabianonline.de/wp-content/main/2010_05/IMG_0287.jpg" alt="IMG_0287 - Film mit Beule" class="aligncenter" /><br />
+<img src="/uploads/images/2010_05/IMG_0287.jpg" alt="IMG_0287 - Film mit Beule" class="aligncenter" /><br />
 <strong>Ort:</strong> Schauburg<br />
 <strong>Datum / Uhrzeit:</strong> 2009:11:09 20:56:31<br />
 <br />

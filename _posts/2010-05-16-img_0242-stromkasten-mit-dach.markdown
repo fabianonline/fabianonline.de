@@ -5,7 +5,7 @@ tags:
 - fotos
 - kurioses
 ---
-<img src="http://blog.fabianonline.de/wp-content/main/2010_05/IMG_0242.jpg" alt="IMG_0242 - Stromkasten mit Dach" class="aligncenter" /><br />
+<img src="/uploads/images/2010_05/IMG_0242.jpg" alt="IMG_0242 - Stromkasten mit Dach" class="aligncenter" /><br />
 <strong>Ort:</strong> Keine Ahnung<br />
 <strong>Datum / Uhrzeit:</strong> 2009:10:17 20:29:55<br />
 <br />

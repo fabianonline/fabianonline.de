@@ -4,7 +4,7 @@ title: Ben Stiller als Na'vi
 tags: 
 - video
 ---
-Einer der meiner Meinung nach lustigsten Teile der <a href="http://blog.fabianonline.de/2010/03/08/live-blogging-oscar-verleihung-2010/">Oscar-Verleihung 2010</a> war der Auftritt von Ben Stiller als Na'vi.
+Einer der meiner Meinung nach lustigsten Teile der <a href="/2010/03/08/live-blogging-oscar-verleihung-2010/">Oscar-Verleihung 2010</a> war der Auftritt von Ben Stiller als Na'vi.
 
 Überraschenderweise gibt es davon bei youtube immer noch kein Video in richtig guter Qualität - aber mal abgesehen davon, dass bei diesem die Schärfe teilweise recht stark schwankt, kann man es sich doch ganz gut anschauen:
 

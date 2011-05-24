@@ -4,7 +4,7 @@ title: IMG_0219 - Ein Biber an der Ruhr
 tags: 
 - fotos
 ---
-<img src="http://blog.fabianonline.de/wp-content/main/2010_05/IMG_0219.jpg" alt="IMG_0219 - Ein Biber an der Ruhr" class="aligncenter" /><br />
+<img src="/uploads/images/2010_05/IMG_0219.jpg" alt="IMG_0219 - Ein Biber an der Ruhr" class="aligncenter" /><br />
 <strong>Ort:</strong> An der Ruhr<br />
 <strong>Datum / Uhrzeit:</strong> 2009:09:26 18:20:04<br />
 <br />

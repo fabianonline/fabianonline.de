@@ -4,7 +4,7 @@ title: "IMG_0084 - \xC3\x9Cberbackenes Schnitzel"
 tags: 
 - fotos
 ---
-<img src="http://blog.fabianonline.de/wp-content/main/2010_03/IMG_0084.jpg" alt="IMG_0084 - Überbackenes Schnitzel" class="aligncenter" /><br />
+<img src="/uploads/images/2010_03/IMG_0084.jpg" alt="IMG_0084 - Überbackenes Schnitzel" class="aligncenter" /><br />
 <strong>Ort:</strong> Mensa-Foyer<br />
 <br />
 <br />

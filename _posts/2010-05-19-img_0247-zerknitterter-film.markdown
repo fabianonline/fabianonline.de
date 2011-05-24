@@ -6,7 +6,7 @@ tags:
 - uni
 - ufc
 ---
-<img src="http://blog.fabianonline.de/wp-content/main/2010_05/IMG_0247.jpg" alt="IMG_0247 - Zerknitterter Film" class="aligncenter" /><br />
+<img src="/uploads/images/2010_05/IMG_0247.jpg" alt="IMG_0247 - Zerknitterter Film" class="aligncenter" /><br />
 <strong>Ort:</strong> UFC-Büro<br />
 <strong>Datum / Uhrzeit:</strong> 2009:11:02 15:15:29<br />
 <br />

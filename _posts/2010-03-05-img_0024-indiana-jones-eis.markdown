@@ -4,7 +4,7 @@ title: IMG_0024 - Indiana-Jones-Eis
 tags: 
 - fotos
 ---
-<img src="http://blog.fabianonline.de/wp-content/main/2010_03/IMG_0024.jpg" alt="IMG_0024 - Indiana-Jones-Eis" class="aligncenter" /><br />
+<img src="/uploads/images/2010_03/IMG_0024.jpg" alt="IMG_0024 - Indiana-Jones-Eis" class="aligncenter" /><br />
 <strong>Ort:</strong> Mensa<br />
 <strong>Datum / Uhrzeit:</strong> 2009:01:19 13:39:28<br />
 <br />

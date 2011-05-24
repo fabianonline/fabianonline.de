@@ -4,7 +4,7 @@ title: IMG_0222 - Sonnenuntergang
 tags: 
 - fotos
 ---
-<img src="http://blog.fabianonline.de/wp-content/main/2010_05/IMG_0222.jpg" alt="IMG_0222 - Sonnenuntergang" class="aligncenter" /><br />
+<img src="/uploads/images/2010_05/IMG_0222.jpg" alt="IMG_0222 - Sonnenuntergang" class="aligncenter" /><br />
 <strong>Ort:</strong> Bei Geisecke<br />
 <strong>Datum / Uhrzeit:</strong> 2009:09:26 18:42:22<br />
 <br />

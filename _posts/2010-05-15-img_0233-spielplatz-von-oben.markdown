@@ -4,7 +4,7 @@ title: IMG_0233 - Spielplatz von oben
 tags: 
 - fotos
 ---
-<img src="http://blog.fabianonline.de/wp-content/main/2010_05/IMG_0233.jpg" alt="IMG_0233 - Spielplatz von oben" class="aligncenter" /><br />
+<img src="/uploads/images/2010_05/IMG_0233.jpg" alt="IMG_0233 - Spielplatz von oben" class="aligncenter" /><br />
 <strong>Ort:</strong> Wassertretbecken bei Siddinghausen<br />
 <strong>Datum / Uhrzeit:</strong> 2009:10:03 14:38:58<br />
 <br />

@@ -4,7 +4,7 @@ title: "IMG_0041 - \xC3\x9Cberraschung!"
 tags: 
 - fotos
 ---
-<img src="http://blog.fabianonline.de/wp-content/main/2010_03/IMG_0041.jpg" alt="IMG_0041 - Überraschung!" class="aligncenter" /><br />
+<img src="/uploads/images/2010_03/IMG_0041.jpg" alt="IMG_0041 - Überraschung!" class="aligncenter" /><br />
 <strong>Ort:</strong> H-Bahn-Station Campus Süd<br />
 <strong>Datum / Uhrzeit:</strong> 2009:02:04 09:50:07<br />
 <br />

@@ -13,5 +13,5 @@ Es dauert nicht mehr lange, und der 100.000. Besucher von fabianonline.de kommt 
 Diesmal habe ich mich sogar vorbereitet: Der 100.000. Besucher bekommt etwas von mir geschenkt. Was, verrate ich aber erst, wenn es so weit ist. In der Zwischenzeit überlege ich mir noch, wie genau ich den 100.000. Besucher über sein Glück informiere und dabei sicherstelle, dass ich das auch nur wirklich einem Besucher mitteile...
 
 Außerdem muss ich mir noch Gedanken machen, wie ich das Problem aus folgendem xkcd-Comic umgehe:
-<img src="http://blog.fabianonline.de/wp-content/uploads/2009/04/new_car_german.png" alt="Neues Auto" title="Neues Auto" width="366" height="384" class="aligncenter size-full wp-image-283" />
+<img src="/uploads/images/2009/04/new_car_german.png" alt="Neues Auto" title="Neues Auto" width="366" height="384" class="aligncenter size-full wp-image-283" />
 Quelle: <a href="http://xkcd.com/570/">xkcd.com</a>, Übersetzung und Formatänderung von mir.

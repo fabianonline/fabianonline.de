@@ -4,7 +4,7 @@ title: IMG_0184 - Wahlzettel
 tags: 
 - fotos
 ---
-<img src="http://blog.fabianonline.de/wp-content/main/2010_04/IMG_0184.jpg" alt="IMG_0184 - Wahlzettel" class="aligncenter" /><br />
+<img src="/uploads/images/2010_04/IMG_0184.jpg" alt="IMG_0184 - Wahlzettel" class="aligncenter" /><br />
 <strong>Ort:</strong> Wahllokal Grundschule, Hennen<br />
 <strong>Datum / Uhrzeit:</strong> 2009:08:30 18:12:30<br />
 <br />

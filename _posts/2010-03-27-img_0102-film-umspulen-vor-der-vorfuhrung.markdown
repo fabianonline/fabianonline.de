@@ -7,7 +7,7 @@ tags:
 - uni
 - ufc
 ---
-<img src="http://blog.fabianonline.de/wp-content/main/2010_03/IMG_0102.jpg" alt="IMG_0102 - Film umspulen vor der Vorführung" class="aligncenter" /><br />
+<img src="/uploads/images/2010_03/IMG_0102.jpg" alt="IMG_0102 - Film umspulen vor der Vorführung" class="aligncenter" /><br />
 <strong>Ort:</strong> EF50, HS1<br />
 <strong>Datum / Uhrzeit:</strong> 2009:07:08 19:37:01<br />
 <br />

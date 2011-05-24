@@ -6,7 +6,7 @@ tags:
 - uni
 - ufc
 ---
-<img src="http://blog.fabianonline.de/wp-content/main/2010_03/IMG_0086.jpg" alt="IMG_0086 - Unsere Leinwand" class="aligncenter" /><br />
+<img src="/uploads/images/2010_03/IMG_0086.jpg" alt="IMG_0086 - Unsere Leinwand" class="aligncenter" /><br />
 <strong>Ort:</strong> EF50, HS1<br />
 <br />
 <br />

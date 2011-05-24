@@ -4,7 +4,7 @@ title: IMG_0225 - Wahlzettel
 tags: 
 - fotos
 ---
-<img src="http://blog.fabianonline.de/wp-content/main/2010_05/IMG_0225.jpg" alt="IMG_0225 - Wahlzettel" class="aligncenter" /><br />
+<img src="/uploads/images/2010_05/IMG_0225.jpg" alt="IMG_0225 - Wahlzettel" class="aligncenter" /><br />
 <strong>Ort:</strong> Grundschule Hennen<br />
 <strong>Datum / Uhrzeit:</strong> 2009:09:27 18:01:22<br />
 <br />

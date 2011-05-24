@@ -4,7 +4,7 @@ title: "IMG_0162 - Gr\xC3\xBCne Wohnanlage"
 tags: 
 - fotos
 ---
-<img src="http://blog.fabianonline.de/wp-content/main/2010_04/IMG_0162.jpg" alt="IMG_0162 - Grüne Wohnanlage" class="aligncenter" /><br />
+<img src="/uploads/images/2010_04/IMG_0162.jpg" alt="IMG_0162 - Grüne Wohnanlage" class="aligncenter" /><br />
 <strong>Ort:</strong> Köln<br />
 <strong>Datum / Uhrzeit:</strong> 2009:08:12 09:20:32<br />
 <br />
