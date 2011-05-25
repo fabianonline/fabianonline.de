@@ -1,9 +1,9 @@
 RewriteEngine On
 
-RewriteRule ^wp-content/uploads/(.*)$  /uploads/images/$1  [R]
-RewriteRule ^wp-content/main/(.*)$     /uploads/images/$1  [R]
+RewriteRule ^wp-content/uploads/(.*)$  /uploads/images/$1  [R=permanent]
+RewriteRule ^wp-content/main/(.*)$     /uploads/images/$1  [R=permanent]
 
-RewriteRule ^feed/(.*)$                /atom.xml           [R]
+RewriteRule ^feed/(.*)$                /atom.xml           [R=permanent]
 
 ErrorDocument 404 /404/index.html
 
