@@ -1,0 +1,9 @@
+RewriteEngine On
+
+RewriteRule ^wp-content/uploads/(.*)$  /uploads/images/$1  [R]
+RewriteRule ^wp-content/main/(.*)$     /uploads/images/$1  [R]
+
+RewriteRule ^feed/(.*)$                /atom.xml           [R]
+
+ErrorDocument 404 /404/index.html
+
