@@ -6,6 +6,8 @@
 
 <header>
     <h1><a href="{{ site.base_url }}{{ special_post.url }}" title="{{special_post.title | escape}}">{{special_post.title}}</a></h1>
+    {% if special_post.date %}
     <time datetime="{{ special_post.date | date_to_xmlschema }}" pubdate="pubdate">{{ special_post.date | date:"%d.%m.%Y" }}</time>
+    {% endif %}
     <br style="clear: both; height: 0px;" />
 </header>
