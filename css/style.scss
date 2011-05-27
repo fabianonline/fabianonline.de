@@ -184,6 +184,13 @@ header {
     float: right;
 }
 
+#sidebar ol, #sidebar ul {
+    padding-left: 21px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    color: #f23700;
+}
+
 #sidebar section,
 #sidebar nav {
     padding-left: 15px;
