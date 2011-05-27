@@ -12,10 +12,10 @@
   </p>
   </div>
 
-  {% unless post.tags.empty %}
+  {% if post.tags and post.tags != empty %}
   <footer>
     Tags: {{ post.tags | join: ", " }}
   </footer>
-  {% endunless %}
+  {% endif %}
 </article>
 
