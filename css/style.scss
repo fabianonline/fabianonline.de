@@ -1,3 +1,6 @@
+$color_dark: #f23700;
+$color_bright: #ff7800;
+
 body {
 	background-color: #ddd;
     margin-top: 0px;
@@ -11,7 +14,7 @@ body {
 a,
 a:visited,
 a:active {
-    color: #ff7800;
+    color: $color_bright;
     text-decoration: underline;
 }
 
@@ -35,11 +38,11 @@ header {
     #title {
         height: 80px;
         width: 250px;
-        background-color: #ff7800;
-        background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #f23700), color-stop(1, #ff7800));
-        background: -moz-linear-gradient(top, #f23700, #ff7800);
-        background: -o-linear-gradient(top, #f23700, #ff7800);
-        background: -ms-linear-gradient(top, #f23700, #ff7800);
+        background-color: $color_bright;
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0, $color_dark), color-stop(1, $color_bright));
+        background: -moz-linear-gradient(top, $color_dark, $color_bright);
+        background: -o-linear-gradient(top, $color_dark, $color_bright);
+        background: -ms-linear-gradient(top, $color_dark, $color_bright);
         margin-right: 15px;
         float: left;
         color: #fff;
@@ -90,14 +93,14 @@ header {
 
         header {
             display: block;
-            border-bottom: 1px dotted #f23700;
+            border-bottom: 1px dotted $color_dark;
             padding-bottom: 10px;
             margin-bottom: 10px;
             padding-left: 15px;
             padding-right: 15px;
 
             h1, h1 a {
-                color: #f23700;
+                color: $color_dark;
                 font-size: 18px;
                 text-decoration: none;
                 letter-spacing: -1px;
@@ -138,7 +141,7 @@ header {
             }
 
             pre, blockquote {
-                border-left: 1px dotted #F23700;
+                border-left: 1px dotted $color_dark;
                 margin-left: 10px;
                 padding-left: 10px;
             }
@@ -147,12 +150,12 @@ header {
                 padding-left: 21px;
                 margin-top: 0px;
                 margin-bottom: 15px;
-                color: #f23700;
+                color: $color_dark;
             }
 
             hr {
                 border: {
-                    top: 1px dotted #f23700;
+                    top: 1px dotted $color_dark;
                     bottom: none;
                     left: none;
                     right: none;
@@ -183,44 +186,43 @@ header {
     display: block;
     width: 200px;
     float: right;
-}
 
-#sidebar img#fabianonline {
-    display: block;
-    margin-bottom: 10px;
-}
+    img#fabianonline {
+        display: block;
+        margin-bottom: 10px;
+    }
 
-#sidebar ol, #sidebar ul {
-    padding-left: 21px;
-    margin-top: 0px;
-    margin-bottom: 15px;
-    color: #f23700;
-}
+    ol, ul {
+        padding-left: 21px;
+        margin-top: 0px;
+        margin-bottom: 15px;
+        color: $color_dark;
+    }
 
-#sidebar section,
-#sidebar nav {
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-bottom: 25px;
-}
+    section, nav {
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-bottom: 25px;
+    }
 
-#sidebar header h1 {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    color: #f23700;
-    font-size: 18px;
-    letter-spacing: -1px;
-}
+    header {
+        display: block;
+        border-bottom: 1px dotted $color_dark;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+        margin-right: -15px;
+        margin-left: -15px;
+        padding-left: 15px;
+        padding-right: 15px;
 
-#sidebar header {
-    display: block;
-    border-bottom: 1px dotted #f23700;
-    padding-bottom: 10px;
-    margin-bottom: 10px;
-    margin-right: -15px;
-    margin-left: -15px;
-    padding-left: 15px;
-    padding-right: 15px;
+        h1 {
+            margin-top: 0px;
+            margin-bottom: 0px;
+            color: $color_dark;
+            font-size: 18px;
+            letter-spacing: -1px;
+        }
+    }
 }
 
 #everything > footer {
