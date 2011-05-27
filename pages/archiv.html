@@ -1,0 +1,13 @@
+---
+title: "Archiv"
+layout: post
+---
+
+Auf dieser Seite werden alle Posts aufgelistet, die in diesem Blog vorhanden sind.
+
+{% for post in site.posts %}
+  {{ post.date | date:"%d.%m.%Y" }}
+  &raquo; 
+  <a href="{{site.base_url}}{{post.url}}">{{ post.title }}</a>
+  <br />
+{% endfor %}
