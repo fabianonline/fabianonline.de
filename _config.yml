@@ -7,6 +7,10 @@ rdiscount:
 markdown: rdiscount
 paginate: 10
 
+exclude: [
+    Capfile
+]
+
 # user defined variables
 auto_excerpt_length: 20
 
