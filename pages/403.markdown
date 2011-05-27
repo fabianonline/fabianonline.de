@@ -1,0 +1,21 @@
+---
+title: "Zugriff verweigert"
+layout: post
+---
+
+Dir wurde der Zugriff verweigert.
+
+Warum passiert das?
+===================
+
+Du hast vermutlich einen veralteten Link zu meinem Blog benutzt. Durch die Umstellung
+auf das neue System sind ein paar Links leider ungültig geworden - und als Folge davon
+versuchst du bzw. dein Browser dann halt, eine Quelle abzurufen, die nicht mehr verfügbar
+ist. Was sich in diesem Falle halt als eine "Zugriff verweigert"-Fehlermeldung äußert.
+
+Was kann ich jetzt machen?
+==========================
+
+Ganz einfach: Geh zur [Startseite dieses Blogs](/) und suche dort dann
+nach den gewünschten Infos.
+

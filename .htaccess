@@ -5,5 +5,7 @@ RewriteRule ^wp-content/main/(.*)$     /uploads/images/$1  [R=permanent]
 
 RewriteRule ^feed/(.*)$                /atom.xml           [R=permanent]
 
+ErrorDocument 403 /pages/403/index.html
 ErrorDocument 404 /pages/404/index.html
+Options -Indexes
 
