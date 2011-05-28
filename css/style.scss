@@ -33,7 +33,9 @@ a:hover {
     background-color: #fff;
 }
 
-header {
+header#head {
+    margin-bottom: 50px;
+    height: 80px;
 
     #title {
         height: 80px;
@@ -43,11 +45,9 @@ header {
         background: -moz-linear-gradient(top, $color_dark, $color_bright);
         background: -o-linear-gradient(top, $color_dark, $color_bright);
         background: -ms-linear-gradient(top, $color_dark, $color_bright);
-        margin-right: 15px;
         float: left;
         color: #fff;
         padding-left: 10px;
-        border-right: 10px solid #fff;
         line-height: normal;
 
         h1 {
@@ -72,15 +72,10 @@ header {
 
     #header_image {
         height: 80px;
-        width: 100%;
-        background-image: url(/images/headerbild.png);
-        background-position: right;
-        background-repeat: no-repeat;
+        width: 535px;
+        float: right;
+        display: block;
     }
-}
-
-#everything > header {
-    margin-bottom: 50px;
 }
 
 #content {
