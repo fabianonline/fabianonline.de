@@ -18,6 +18,6 @@ namespace :deploy do
 
     desc "Run Jekyll"
     task :finalize_update do
-        run "cd #{release_path} && sass --update css/ && jekyll"
+        run "cd #{release_path} && sass --update css/ && time jekyll"
     end
 end
