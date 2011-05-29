@@ -1,0 +1,12 @@
+--- 
+layout: post
+title: killall...
+---
+Notiz an mich selbst:
+<blockquote>sudo killall sshd</blockquote> ist ein ziemlich böser Befehl.
+
+
+Für die, die sich jetzt wundern: SSH ist ein Programm, welches es einem (unter Anderem) ermöglicht, einen Server sicher verschlüsselt auch aus der Ferne bedienen zu können. Aus der Ferne würde bei mir so viel bedeuten wie "Ich sitze an meinem PC un steuere den Server, der eine Etage unter mir steht". Mit "killall sshd" beende ich auf einen Schlag alle Prozesse, die auf dem Server laufen und mir eine Verbindung mittels SSH ermöglichen, auf einmal. Folge: Ich habe mir selber die Kontrolle über den Server entrissen. :wand: 
+Also runterlaufen, eine Tastatur suchen, anstöpseln und blind tippend den SSH-Server wieder starten.
+
+Aber ich habe gelernt: Ab jetzt prüft ein Tool auf dem Server alle 15 Minuten, ob noch ein SSH-Server läuft - wenn nicht, wird er einfach wieder gestartet. ;-)

@@ -1,0 +1,10 @@
+--- 
+layout: post
+title: Fuzzig
+---
+Wir waren heute in Paderborn auch im dortigen "Ich bin doch nicht (?) blöd"-Markt.
+Dort gibt es in der CD-Abteilung auch ein paar Terminals mit Touchscreen, an denen man (theoretisch) nach Alben suchen und in diese reinhören kann. Um die Suchfunktion komfortabler zu machen, ist eine Fuzzy-Suche implementiert. Eine Fuzzy-Suche berücksichtigt auch Einträge, die dem Suchbegriff ähnlich sind (wenn man z.B. nach "Madona" suchen würde, sollte man mit einer ordentlichen Fuzzy-Suche trotzdem die korrekt geschriebene "Madonna" finden). Dabei sollten in der Liste der Ergebnisse sinnvoller Weise zuerst die Einträge angezeigt werden, die dem Suchbegriff am meisten entsprechen, und danach erst die "Fuzzygeren" Einträge.
+Theoretisch.
+Wenn man an einem dieser Terminals nach "Madsen" sucht (ja, die Gruppe ist richtig geschrieben, existiert und hat auch schon ein Album rausgebracht), ändert die tolle Fuzzy-Funktion dieser Terminals die Suche so ab, dass man alle Ergebnisse bekommt, in denen die Zeichenfolge "ma" vorkommt. Das sind dann etwa 7.000... man bekommt immer 7 Suchergebnisse pro Bildschirmseite angezeigt und das umschalten zur nächsten Seite dauert etwa 2 Sekunden. Dass die Liste dann auch nicht alphabetisch oder sonstwie sortiert ist, muss ich jetzt ja wohl nicht noch extra erwähnen...
+
+Fazit: <ul><li>Idee: sehr gut,</li><li>Ausführung: unbenutzbar</li></ul> :wand: 

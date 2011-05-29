@@ -1,0 +1,14 @@
+--- 
+layout: post
+title: RAID
+---
+Nun gut, wie ihr vielleicht noch vom letzten Jahr in Erinnerung behalten habt, habe ich demnächst Geburtstag. Auf die Frage, was ich mir denn wünsche, habe ich immer ein spontanes "Geld" erwidert - ich plane, demnächst den Server hier zu Hause um ein paar Festplatten zu erweitern. Ich denke da so an ein kleines RAID5-Arraychen mit 4x250 Gig = 750 Gig Speicherplatz. ;-)
+
+Und damit kommen auch schon die Probleme: Will ich ein Hadware- oder lieber ein Software-RAID? Vorteil eines Hardware-RAIDs wäre die höhere Geschwindigkeit, während ein Soft-RAID die CPU auslastet und dadurch langsamer ist. Dafür ist ein SoftRAID billiger und ich habe nicht wie bei einem Hardware-RAID das Problem, dass ich einen kompatiblen RAID-Controller anschaffen muss, sollte der eigentliche kaputt gehen und ich wieder an die Daten wollen. Außerdem bräuchte ich einen RAID-Controller, der auch unter Linux vernünftig zu handhaben ist... Und dann gibt es da noch ein Problem, das mich im Moment echt wahnsinnig macht: Viele RAID-Controller brauchen einen PCI-Slot der Version 2.3, während mein Mainboard nur 2.2er Slots hat. Bislang wusste ich noch nicht mal, dass es verschiedene, unterschiedliche Versionen von PCI gibt... Eine 2.3er Karte kann man übrigens normalerweise nicht in einen 2.2er-Slot stecken, ohne sie dabei zu beschädigen...
+Dann: SATA oder IDE? SATA hätte den Vorteil, dass es zukunftssicher ist. Allerdings bräuchte ich dann auf jeden Fall einen SATA-Controller, da das Mainboard im Server schon *etwas* älter ist. IDE-Anschlüsse gibt es genug...
+
+Im Moment denke ich, dass ich wie folgt verfahre:
+Ich kaufe mir IDE-Festplatten und lasse sie im Software-RAID laufen. Ich meine, soo wichtig ist mir die Schreibgeschwindigkeit dann auch nicht. Sollte irgendwann eine Festplatte ausfallen, kann ich mir ja immernoch überlegen, einen SATA-Controller einzubauen und die neue Platte dann über SATA anzusteuern. Und von dem Geld, was ich dadurch spare, könnte ich die CPU des Servers austauschen (im Moment ist da ein Duron 1000 drin, ich könnte maximal einen AthlonXP 2100+ reinbauen).
+Und bei den Tempo, in dem im Moment die Festplatten wachsen, wird es auch nicht mehr lange dauern, bis ich mein ganzes Array dann auf eine einzelne Platte ziehen und dann das Array neu aufsetzen kann... Eine kurze Suche im Internet zeigt mir, dass es z.B. bei Atelco Festplatten mit 750 Gig für 300 Euro gibt...
+
+Wenn ihr noch irgendwelche Tipps oder so für mich habt: Immer ab in die Kommentare damit!

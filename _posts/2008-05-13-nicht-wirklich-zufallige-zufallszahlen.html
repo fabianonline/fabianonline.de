@@ -1,0 +1,21 @@
+--- 
+layout: post
+title: "Nicht wirklich zuf\xC3\xA4llige Zufallszahlen..."
+excerpt: "Wie ich gerade gelesen habe, gab es da in ein paar Linux-Paketen bei Ubuntu und Debian ein kleineres Sicherheitsproblem:\r\n\
+  In den OpenSSL-Libraries wurde mit einem defekten Zufallsgenerator gearbeitet. Als Folge davon sind viele erzeugte SSH- und sonstige Keys sehr schwach und k\xC3\xB6nnen durch Brute-Force-Attacken ausgenutzt werden. :-O \r\n\
+  Weitere Infos zum Problem sowie Anleitungen zur Problembegebung und -erkennung gibt es unter folgenden Links:<ul><li><a href=\"http://www.ubuntu.com/usn/usn-612-1\">USN-612-1: OpenSSL vulnerability</a></li><li><a href=\"http://www.ubuntu.com/usn/usn-612-2\">USN-612-2: OpenSSH vulnerability</a></li></ul>\r\n\
+  Und jetzt f\xC3\xBCr Nicht-Informatiker eine kleine Erkl\xC3\xA4rung des Problems (mir ist da gerade eine sehr sch\xC3\xB6ne Analogie eingefallen, die ich jetzt hier loswerden m\xC3\xB6chte ;-) ):"
+---
+Wie ich gerade gelesen habe, gab es da in ein paar Linux-Paketen bei Ubuntu und Debian ein kleineres Sicherheitsproblem:
+In den OpenSSL-Libraries wurde mit einem defekten Zufallsgenerator gearbeitet. Als Folge davon sind viele erzeugte SSH- und sonstige Keys sehr schwach und können durch Brute-Force-Attacken ausgenutzt werden. :-O 
+Weitere Infos zum Problem sowie Anleitungen zur Problembegebung und -erkennung gibt es unter folgenden Links:<ul><li><a href="http://www.ubuntu.com/usn/usn-612-1">USN-612-1: OpenSSL vulnerability</a></li><li><a href="http://www.ubuntu.com/usn/usn-612-2">USN-612-2: OpenSSH vulnerability</a></li></ul>
+Und jetzt für Nicht-Informatiker eine kleine Erklärung des Problems (mir ist da gerade eine sehr schöne Analogie eingefallen, die ich jetzt hier loswerden möchte ;-) ):
+
+Man geht davon aus, dass ein einfaches Passwort für das Einloggen auf dem Server zu unsicher ist. Daher verwendet man in vielen Falles eine Public/Private Key-Authentifizierung, die als viel sicherer gilt. Dabei erzeugt sich jeder Benutzer zwei Schlüssel, die zueinander in Verbindung stehen, und hinterlegt einen auf dem Server, während er den anderen dann als Erkennungszeichen benutzt.
+Jetzt kommt die Analogie: Wenn mein Server ein Haus ist, dann erzeuge ich mir einen zufälligen Schlüssel (jetzt meine ich so ein Ding aus Metall, mit Zacken und so) und ein zu diesem Schlüssel passendes Schloss. Das Schloss (Public Key) bringe ich an meinem Haus (Server) an, und kann ab da mit meinem Schlüssel (Private Key) die Tür öffnen (mich einloggen). Dabei sind die im Serverwesen verwendeten Schlüssel etwas komplexer als die euch bekannten Schlüssel - ich habe gerade in einer Überschlagsrechnung errechnet, dass die Schlüssel, die ich für meinen Server verwende, etwa 200 Zacken haben müssten, um auf die gleiche Komplexität zu kommen (natürlich musste ich jetzt gleich mal nachrechnen: Mein Haustürschlüssel hat 6 Zacken auf 2,5cm -- stellt euch also mal einen Schlüssel mit einer Länge von 83cm vor...).
+Egal. Auf jeden Fall werden diese Schlüssel-Schloss-Kombinationen zufällig erstellt - zumindest sollten sie dass. Der gefundene Bug sorgte bildlich gesprochen dafür, dass nur Schlüssel generiert wurden, bei denen alle Zacken genau gleich hoch waren. Und dass solche Schlüssel recht schnell nachzumachen sind (man braucht dann ja nur ein paar davon), sollte jedem klar sein.
+
+Na ja, "meine" Server sind jetzt alle wieder sicher.
+
+
+Und weil ihr so schön den ganzen Text gelesen habt, kommt jetzt gleich noch ein GTI-Prof-Sprüche-Post. ;-)

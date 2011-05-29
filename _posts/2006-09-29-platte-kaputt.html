@@ -1,0 +1,11 @@
+--- 
+layout: post
+title: Platte kaputt
+---
+Seit einiger Zeit sind wir schon zu mehreren gemeinsam damit beschäftigt, einen Root-Server zu konfigurieren.
+Heute irgendwann lief der Server nicht mehr - er reagierte nicht mehr. Seit mehreren Restarts im Rescue-Modus steht jetzt fest: Eine der zwei Festplatten ist defekt... Im dmesg finden sich lauter Meldungen wie:<blockquote><b>SCSI error : <0 0 0 0> return code = 0x8000002
+sda: Current: sense key: Aborted Command
+    Additional sense: Scsi parity error
+end_request: I/O error, dev sda, sector 46477351</b>
+oder auch:
+<b>raid1: sda: unrecoverable I/O read error for block 26941952</b></blockquote>Super... muss ich morgen früh erstmal da anrufen. :| 

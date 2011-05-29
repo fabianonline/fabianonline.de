@@ -1,0 +1,16 @@
+--- 
+layout: post
+title: Schon wieder so ein komisches Mainboard
+---
+Erinnert ihr euch noch an <a href="http://www.fabianonline.de/blog/archives/419-Gleich-lernt-hier-ein-Mainboard-fliegen....html">diesen Beitrag hier</a>? Nein? Na gut, dann mal eben eine Kurzzusammenfassung: Funktionierendes Mainboard (K7S5A) von einem PC in den anderen gesteckt - und schon geht's nicht mehr, zeigt nur einen schwarzen Bildschirm. Nach ganz vielem Herumprobiere läuft's dann plötzlich und ohne Grund wieder.
+
+Heute: Ich finde ein altes Mainboard (A7V133) wieder - mit einem Duron 1000 drauf. Ich weiß zwar nicht, woher ich das Dingen habe, aber ich finde es unter meinem Bett. Kurz getestet: Läuft wunderbar. Super.
+Also den Server ausgeschaltet und angefangen, umzubauen. Umbau fertig, ein Druck auf den Schalter und schon startet der PC. Ich freue mich, schalte ihn wieder aus und schleppe ihn in unsere Server-Abstell-Kammer. Dort schalte ich ihn ein, und: Nichts. Das BIOS piept nicht, Linux lädt nicht - super. Und natürlich kein Monitor oder so in der Nähe. Ich fluche, und schleppe den PC wieder nach oben. Dort zeigt sich: Nach einem Druck auf den Schalter gehen wohl die Lüfter und so an - mehr aber auch nicht. Das BIOS zeigt überhaupt kein Bild, nur Schwarz.
+
+Nach (gefühlten) 19 Stunden voller Bastelei läuft das Dingen immer noch nicht. Ich gebe auf und baue das alte Mainboard mit dem 450er Pentium-2 wieder ein. Als ich fertig bin, muss ich den Server wieder runterschleppen - aber dafür läuft der Server wieder.
+
+An meinem PC gebe ich aber nicht auf: Ich suche noch ein bisschen im Internet herum, und finde <a href="http://www.overclockers.com/articles429/">diese Seite</a>: Ein Bastler will sein A7V133 tunen - und stolpert dabei über das gleiche Problem wie ich. Er findet jedoch heraus: Wenn man die Jumper auf dem Board von "Jumper-Free" auf nicht-"Jumper-Free" umsteckt und ein bisserl zwischen den beiden Einstellungen hin- und herwechselt, kann man gute Chancen haben, das Mainboard wieder zum Starten bewegen zu können.
+Ein Trockentest mit einem zufällig vorbeilaufenden Netzteil ergibt: Es klappt wirklich.
+
+Also wieder den Server hochschleppen, wieder umbauen, wieder runterschleppen - und jetzt funktioniert sogar alles.
+Und damit ich nicht irgendwann einmal, wenn ich den Server neustarten musste und er nicht mehr funktioniert, wieder vor dem obigen Problem stehe, klebt jetzt ein Zettel mit einer Anleitung zum Jumper-Wechseln im Rechner.  8-) 

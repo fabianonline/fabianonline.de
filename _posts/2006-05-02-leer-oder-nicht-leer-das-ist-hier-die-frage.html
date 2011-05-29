@@ -1,0 +1,21 @@
+--- 
+layout: post
+title: Leer oder nicht leer, das ist hier die Frage
+excerpt: "Jaja, der Frede... hatte er unsere heutige Programmiersession mit folgendem Code doch ein bisschen in die L\xC3\xA4nge gezogen:[code]public boolean isNonEmpty() { return m_container.isEmpty(); }[/code]Damit hat er uns nur etwa 1 Stunde immer verzweifelter werdende Fehlersuche beschert...\r\n\
+  \r\n\
+  F\xC3\xBCr alle nicht-Programmierer: Unter \"mehr lesen\" gibt's eine simple Erl\xC3\xA4uterung...\r\n\
+  \r\n"
+---
+Jaja, der Frede... hatte er unsere heutige Programmiersession mit folgendem Code doch ein bisschen in die Länge gezogen:[code]public boolean isNonEmpty() { return m_container.isEmpty(); }[/code]Damit hat er uns nur etwa 1 Stunde immer verzweifelter werdende Fehlersuche beschert...
+
+Für alle nicht-Programmierer: Unter "mehr lesen" gibt's eine simple Erläuterung...
+
+
+Zunächst: Was ist eine Funktion in einer Programmiersprache?
+Eine Funktion kann man sich im Prinzip wie eine Frage vorstellen, auf die man eine Antwort möchte. Eine Funktion könnte z.B. "runden" heißen, man übergibt ihr als Parameter eine Zahl und die Funktion "antwortet", indem sie die Zahl gerundet zurückgibt. Andere Funktionen wären z.B. sqrt (zieht die Wurzel einer Zahl) oder drehe_um, die eine Zeichenkette, die man ihr übergibt umgedreht wieder zurückgibt ("Hallo" => "ollaH"). Funktionen können aber auch ohne Parameter auskommen - zeit z.B., die einfach nur die aktuelle Uhrzeit zurückgibt.
+
+Unsere Funktion hieß "isNonEmpty", sollte also einfach nur zurückgeben, (ja / nein als Antwort), ob in dem abgefragten Container Elemente vorhanden sind (bevor man z.B. versucht, ein Element zu löschen, ist es für Programmierer immer sinnvoll, erstmal zu prüfen, ob es dieses Element überhaupt gibt).
+Frede hat diese Funktion jedoch so geschrieben, dass sie zurückgibt, ob *kein* Element in dem Container vorhanden ist.
+
+Folge: Anstelle einem Code in der Form von "Nur löschen, wenn es ein Element gibt", haben wir (eher unwissend) einen Code in der Form von "Nur löschen, wenn es keine Elemente gibt" geschrieben - was zu einem doch eher ungeplanten Verhalten geführt hat. :wand: 
+Und wir haben wirklich alles mögliche probiert und gemacht, kamen aber nicht auf die Idee, Fredes "triviale" (Zitat Frede) isNonEmpty()-Funktion zu überprüfen...

@@ -1,0 +1,9 @@
+--- 
+layout: post
+title: RAID-Gedanken
+---
+Ich sag euch: Es ist nicht einfach, sich zwischen Soft- und Hardware-RAID zu entscheiden. Ich habe heute noch ein bisschen mit einem Kommilitonen über dieses Thema geredet - er hat mir ganz klar zu einem Hardware-RAID geraten. 
+
+Allerdings: So ziemlich alle halbwegs aktuellen Hardware-RAID-Karten brauchen PCI 2.3, PCI-X oder gar PCIe. Und das hat mein Server nunmal nicht. Wollte ich also Hardware-RAID in meinem Server verbauen, kämen zu dem Preis für die Festplatten noch ein neues Mainboard (~70 Euro), eine neue CPU (~100 Euro), neuer RAM (~100 Euro) sowie noch der RAID-Controller (~100 Euro, eher mehr als weniger)... also etwa 370 Euro mehr.
+
+Nun, da bleibe ich doch lieber bei einem Software-RAID. Aber ich denke, dass ich mir da noch eine (billige) SATA-Controller-Karte für die Festplatten kaufe, dann muss ich mir immerhin keine Sorgen mehr machen, dass ich mit den IDE-Festplatten bald dastehe... und spare über 300 Euro.

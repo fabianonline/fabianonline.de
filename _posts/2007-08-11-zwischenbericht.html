@@ -1,0 +1,9 @@
+--- 
+layout: post
+title: Zwischenbericht
+---
+Nur so als kurzen Zwischenbericht: Die beiden neuen Platten sind inzwischen auch eingebaut und funktionieren auch.
+
+Im Moment fluche ich noch über einem Kernel-Bug in Ubuntu - wenn ich das alles richtig interpretiere, tritt ein IRQ auf, der nicht abgefangen wird - was der Kernel dann als Anlass nimmt, diesen IRQ zu deaktivieren. Da an diesem IRQ aber der SATA-Controller hängt (zumindest die Ports 1 und 2), "verschwinden" einfach so zwei Festplatten.
+Dieses findet dann aber das RAID5 nicht so wirklich toll...
+Ich hoffe mal, dass ein Kernel-Update da hilft. Morgen probiere ich es aus.

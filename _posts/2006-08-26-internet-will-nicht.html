@@ -1,0 +1,13 @@
+--- 
+layout: post
+title: Internet will nicht
+---
+Nein, mit "meinem" Internet ist alles in Ordnung. Aber ich habe heute lange Zeit damit verbracht, bei einem Arbeitskollegen meines Vaters DSL ans Laufen zu bekommen - erfolglos.
+Es handelte sich dabei um Arcor-DSL in Zusammenhang mit einem Modem von Zyxel (wohl das Standard-Arcor-Modell - ich weiß nur noch, dass eine "200" als Antwort auf die Frage nach dem Modell immer ausreichte). Das genaue Problem (außer "Internet geht nicht") kann ich nicht wirklich benennen - Windows meldete mir immer andere Fehlernummern, mal 718, mal 692, mal 696 - irgeneine Mischung aus "Remotecomputer antwortet nicht" und "Benutzername / Passwort falsch". Der Router bot mir einen Menüpunkt namens Diagnose, dort fanden sich so tolle Diagnose-Möglichkeiten wie "PPPoE Connect" (mal "Successfull", mal "Failed", kein Muster erkennbar) oder "ATM Loopback Test" (klappte nie).
+
+Die zu Hilfe genommene Arcor-Hotline war auch nicht wirklich hilfreich - der FirstLevel (hat eigentlich keine Ahnung, sondern nur Checklisten, die abgeklappert werden) ist über eine 0180er Nummer zu erreichen und war erwartunsgemäß keine Hilfe; der SecondLevel (hat schon mehr Ahnung) ist nur über eine 0900er-Nummer (1,24?/Minute!) zu erreichen und konnte mir im Prinzip auch nicht wirklich viel helfen ("Machen sie mal einen Virenscan").
+
+Mit meinem Laptop (Linux) habe ich dann auch noch ein bisschen herumgespielt und fand es dabei eher seltsam, dass pppoe-discovery manchmal einen ATM fand, teilweise aber auch gar nichts fand. Mein Verdacht ging dann in Richtung einer gestörten DSL-Leitung, der aber vom Support irgendwie nicht bestätigt werden konnte (Ich: "Können sie nicht evtl. mal eben das Modem pingen, um sicherzustellen, dass da alles in Ordnung ist?" - "Nein, das können wir nicht.").
+
+Fazit: Ich bin unverrichteter Dinge wieder abgezogen, bin mir aber recht sicher, dass der Fehler entweder an der Leitung oder am Modem liegt (die Zyxel-Hotline ist Samstangs leider nicht besetzt). Insgesamt muss ich aber doch feststellen, dass die Telekom mit ihrem wirklich heilfreichen (und kostenlosen!) Support deutliche Vorteile hat.
+Wenn ihr noch Ideen habt, wo das Problem liegen könnte, dann schreibt doch bitte einen kurzen Kommentar. Wer mir jetzt aber mit Tipps in Form von "Hast du schonmal das Modem vom Strom getrennt und wieder angeschlossen" oder "Hat das Modem Strom" kommt, wird erschossen. Ich kann diese Fragen nach geschätzten 2 Stunden SecondLevel-Telefonaten echt nicht mehr hören. Egal welches Problem man hat, die Standardfragen sind immer die gleichen ("Mein Haus brennt." - "Haben Sie schonmal den Stecker gezogen?"). ;-) 

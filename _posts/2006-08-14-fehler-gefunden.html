@@ -1,0 +1,19 @@
+--- 
+layout: post
+title: Fehler gefunden
+---
+Ich bin gerade dabei, einige der älteren Einträge mal mit Tags zu versehen, da fällt mir doch ein kleiner Bug im Tags-Plugin auf:
+Unter den Eingabefeldern für den neuen Beitrag habe ich eine kleine Liste aller bisher verwendeten Tags. Diese Liste ist alphabetisch sortiert und nach Anfangsbuchstaben gruppiert. Allerdings scheint da noch ein kleiner Bug drinzusein: Wer findet die beiden Fehler in der folgenden Auflistung (abgesehen von den vielen Kommas)?<blockquote><b>|A:</b> Anleitungen, Auto, <b>|B:</b> Berichte, Blogs, <b>|E:</b> eMail, <b>|F:</b> fabianonline, <b>|F:</b> Fachschaft, <b>|F:</b> faszinierend, <b>|F:</b> Ferien, Film-AG, Fotos, <b>|I:</b> Internet, <b>|J:</b> Jubiläum, <b>|K:</b> Kamerakurs, Klausuren, <b>|L:</b> Lustiges, <b>|M:</b> Madsen, Musik, <b>|S:</b> ScienceFiction, Seltsame Leute, Spam, <b>|T:</b> Tags, Tankstelle, <b>|U:</b> Uni, <b>|Z:</b> ZfS, <b>|Ä:</b> Ärgerliches,</blockquote>
+[Update] Na gut, ich hänge die Auflösung da mal direkt hintendran: Das "F" als Trenner taucht ganze vier Mal auf und zudem ist das "Ä" hinter allen anderen Buchstaben einsortiert.
+Das mit dem vielfachen "F" habe ich schon gelöst, da war nur eine ganz kleine Änderung im Quellcode nötig. Die Sache mit dem "Ä" allerdings ist da ein ganz anderes Problem, da die entsprechende Sortierung direkt in der Datenbank vorgenommen wird - und auf die habe ich leider nicht genug Zugriff, um da etwas ändern zu können. Schade eigentlich.
+
+Nach einer kurzen Synonym-Suche habe ich dann "Ärgerliches" einfach durch "Unerfreuliches" ersetzt. ;-)
+
+
+[Update]
+Hier ist der Code, der dafür sorgt, dass die "Tag-Trenner" die Groß- und Kleinschreibung der Tags ignorieren. Der Code ersetzt die foreach-Schleife, die in der Datei "plugins/serendipity_event_freetag/serendipity_event_freetag.php" so im Bereich ab Zeile 565 zu finden ist:<blockquote>foreach ($taglist as $tag => $count) {
+                                if (strtolower(substr($tag, 0, 1)) != $lastletter)
+                                    echo " <&#98;>|".strtoupper(substr($tag, 0, 1)).":<&#47;&#98;> ";
+                                echo "<&#97; href=\"#tagListAnchor\" style=\"text-decoration: none\" onClick=\"addTag('$tag')\">$tag<&#47;&#97;>, ";
+                                $lastletter = strtolower(substr($tag, 0, 1));
+                            }</blockquote>Wie immer ist dieser Code ohne Gewähr - bei mir funzt er aber. ;-)

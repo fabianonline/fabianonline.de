@@ -1,0 +1,22 @@
+--- 
+layout: post
+title: screenFlickr
+---
+Ich hatte mir ja <a href="http://www.fabianonline.de/blog/archives/650-Flickr-Bildschirmschoner.html">vor einiger Zeit</a> einen Bildschirmschoner gewünscht, der zufällige Bilder von Flickr anzeigt. So etwas in der Richtung gibt es wohl schon für Windows, diese Variante hat jedoch in meinen Augen einen dicken Nachteil: Sie kann nicht wirklich zufällige Bilder anzeigen. Man kann wohl ein Tag vorgeben, aber dann sieht man halt auch immer nur Bilder, die dieses Tag haben.
+
+Ich habe dann zufällig vor ein paar Tagen eine <a href="http://www.wynia.org/wordpress/?p=172">Anleitung</a> entdeckt, in der beschrieben wird, wie man sich relativ einfach mal eben einen Webbasierten Bildschirmschoner basteln kann. Und das habe ich gemacht. Und ich dachte mir, dass ich das Ganze doch einfach mal hochladen kann, vielleicht interessiert sich ja wer dafür.
+
+Der Bildschirmschoner basiert auf einer tollen Idee von Microsoft: HTAs. HTA steht für Hypertext Applications - im Prinzip HTML-Seiten, die man jedoch so einrichten kann, dass sie ohne störenden Browserkram drumherum starten. Also so richtig Vollbild. Diese HTA ist der Kern meines Programms: Sie baut per Ajax eine Verbindung zu meinem Server auf und lässt sich von diesem die ID eines zufälligen Flickr-Bildes schicken. Diese wird dann angezeigt.
+Dazu gehört noch eine screenFlickr.scr, eine simple exe-Datei, die nichts weiter macht, als die screenFlickr.hta zu starten.
+
+Zur Installation:<ol><li><a href='http://www.fabianonline.de/sammler/dlcount.php?id=fabianonline&amp;url=http://fabian.geeks-united.de/screenFlickr/screenFlickr.zip'>screenFlickr.zip</a> herunterladen.</li><li>Entpacken: Die screenFlickr.hta muss in den Ordner c:\windows, screenFlickr.scr kann mehr oder weniger überall liegen.</li><li>Bei Bedarf mal die screenFlickr.hta im Texteditor öffnen - im Moment gibt es genau drei verschiedene Optionen, die man dort bei Bedarf ändern kann.</li><li>Die screenFlickr.scr mit Rechts anklicken und "Installieren" auswählen.</li></ol>Und schon sollte der screenFlickr starten. Beenden kann man übrigens, indem man mit der Maus irgendwohin klickt.
+
+Ich würde mich freuen, wenn ein paar Leute den screenFlickr mal ausprobieren würden... Bugreports und so wären dann auch ganz nett. ;-)
+
+Mal eben zu den Bugs, die ich so kenne:<ul><li>Ich bekomme im Moment diesen Info-Text links oben einfach nicht dazu, immer über dem Bild angezeigt zu werden...</li><li>Ich habe noch keine wirkliche Fehlerbehandlung implementiert: Wenn flickr z.B. mal down ist, könnten auch ein paar komische Sachen passieren. ;-)</li></ul>
+
+Hier kommt jetzt noch der übliche Haftungsausschluss: Ich übernehme keinerlei Haftung für Schäden oder sonstige Ansprüche, die aus der Verwendung von screenFlickr resultieren können. Auch wenn ich nicht wirklich weiß, wie eine HTML-Datei Schaden an einem PC verursachen soll, kann ich diesen Fall dennoch nicht 100%ig ausschließen.
+Aber sagen wir mal soviel: Ich nutze das Programm auch. ;-)
+Außerdem übernehme ich natürlich keine Haftung für die gezeigten Bilder - das Programm wählt (mehr oder weniger) zufällige Bilder von flickr aus und zeigt diese an. Es besteht theoretisch die Möglichkeit, dass auch anstößige / Pornographische Bilder dabei sind.
+
+Also, wenn ihr das Programm auf Arbeit installiert und euer Chef steht genau im falschen Moment hinter euch... sagt nicht, ich hätte euch nicht gewarnt. 8-) 
