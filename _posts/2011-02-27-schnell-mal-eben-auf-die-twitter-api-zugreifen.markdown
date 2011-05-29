@@ -24,8 +24,8 @@ Seitdem Twitter von Basic Auth auf OAuth umgestellt hat, ist der Zugriff auf die
 <li>Jetzt geht's ans Code Schreiben. In diesem Tutorial schreiben wir eine kleine App, die einen "Hallo Welt"-Tweet absendet.Erstellt eine weitere PHP-Datei im gleichen Ordner. </li>
 <li>Ihr braucht zwei PHP-Libraries: <a href="http://github.com/abraham/twitteroauth/raw/master/twitteroauth/OAuth.php">OAuth.php</a> und <a href="http://github.com/abraham/twitteroauth/raw/master/twitteroauth/twitteroauth.php">twitteroauth.php</a>. Ladet beide Dateien herunter und speichert sie in einem Ordner.</li>
 <li>Dazu kommt dann noch ein bisschen Code von euch:
-<code>
-&lt;?php
+{% highlight php %}
+<?php
 require_once('twitteroauth.php');
 define('OAUTH_CONSUMER_KEY', 'abc123');
 define('OAUTH_CONSUMER_SECRET', 'def456');
@@ -33,7 +33,7 @@ define('OAUTH_ACCESS_TOKEN', 'ghi789');
 define('OAUTH_ACCESS_TOKEN_SECRET', 'jkl012');
 $conn = new TwitterOAuth(OAUTH_CONSUMER_KEY, OAUTH_CONSUMER_SECRET, OAUTH_ACCESS_TOKEN, OAUTH_ACCESS_TOKEN_SECRET);
 $conn->post('statuses/update', array('status'=>'Hallo, Welt!'));
-</code>
+{% endhighlight %}
 Bei den vier define-Anweisungen ersetzt ihr die vier Demo-Werte durch die Werte, die ihr von Twitter bekommen habt.</li>
 <li>Was der Code macht:<ul>
 <li>In Zeile 2 wird die Library, die ihr runtergeladen habt, eingebunden.</li>
@@ -42,10 +42,10 @@ Bei den vier define-Anweisungen ersetzt ihr die vier Demo-Werte durch die Werte,
 <li>Wenn ihr den Code ausführt, sollte automatisch solch ein Tweet abgesetzt werden. Yaaay. ;-)</li>
 <li>Wenn ihr noch andere Sachen machen wollt: Auf <a href="http://dev.twitter.com/doc">http://dev.twitter.com/doc</a> findet ihr alle Methoden, die die Twitter-API anbietet.</li>
 <li>Ein Beispiel: Wollt ihr z.B. eure Timeline abrufen, nutzt ihr (die ersten 7 Zeilen der App sollten gleich bleiben):
-<code>
+{% highlight php %}
 $data = $conn->get('statuses/home_timeline', array('count'=>'100'));
 print_r($data);
-</code>
+{% endhighlight %}
 Der Code macht einen GET-Request zu statuses/home_timeline mit dem Parameter "count" mit dem Wert "100". Die Daten von Twitter werden automatisch geparst und euch als Array zurückgeliefert, welches dann via print_r() ausgegeben wird.
 </li>
 </ol>
