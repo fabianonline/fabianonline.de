@@ -82,6 +82,8 @@ header#head {
     float: left;
     width: 565px;
     display: block;
+    padding-right: 19px;
+    border-right: 1px dotted $color_dark;
 
     nav.intra_post_links {
         margin-top: -5px;
