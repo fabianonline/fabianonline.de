@@ -15,7 +15,7 @@ layout: default
         <a href="{{site.base_url}}/page{{paginator.previous_page}}" class="previous">&lt;&lt; Vorige Seite</a>
     {% endif %}
 {% else %}
-    <span class="previous">&lt;&lt; Vorige Seite</a>
+    <span class="previous">&lt;&lt; Vorige Seite</span>
 {% endif %}
 
 &bull;
@@ -27,6 +27,6 @@ Seite {{paginator.page}} von {{paginator.total_pages}} (insgesamt {{ paginator.t
 {% if paginator.next_page %}
     <a href="{{site.base_url}}/page{{paginator.next_page}}" class="next">Nächste Seite &gt;&gt;</a>
 {% else %}
-    <span class="previous">Nächste Seite &gt;&gt;</a>
+    <span class="previous">Nächste Seite &gt;&gt;</span>
 {% endif %}
 </nav>
