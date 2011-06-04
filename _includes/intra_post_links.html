@@ -1,0 +1,11 @@
+<nav class="intra_post_links">
+    {% if page.next %}
+    <a class="left" href="{{ page.next.url }}">&laquo; {{ page.next.title }}</a>
+    {% endif %}
+
+    {% if page.previous %}
+    <a class="right" href="{{ page.previous.url }}">{{page.previous.title }} &raquo;</a>
+    {% endif %}
+
+    <br style="height: 0px; clear: both;" />
+</nav>

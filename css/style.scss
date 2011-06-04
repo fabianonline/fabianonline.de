@@ -83,6 +83,21 @@ header#head {
     width: 565px;
     display: block;
 
+    nav.intra_post_links {
+        margin-top: -5px;
+        padding-left: 15px;
+        padding-right: 15px;
+
+        .left {
+            float: left;
+        }
+
+        .right {
+            float: right;
+        }
+    }
+
+
     article {
         margin-bottom: 25px;
 
@@ -173,7 +188,7 @@ header#head {
         }
     }
 
-    nav {
+    nav#pages {
         text-align: center;
     }
 }
