@@ -1,10 +1,19 @@
 <article>
   {% include post_header.html %}
 
-  {% unless post.tags.empty %}
+  <div class="content">
+  {% if post.content contains '<!--more-->' %}
+    {{ post.content | truncate_after: '<!--more-->' }}
+    <a href="{{ post.url }}#read-more" class="read_more">weiterlesen</a>
+  {% else %}
+    {{ post.content }}
+  {% endif %}
+  </div>
+
+  {% if post.tags and post.tags != empty %}
   <footer>
     Tags: {{ post.tags | join: ", " }}
   </footer>
-  {% endunless %}
+  {% endif %}
 </article>
 
