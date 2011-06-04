@@ -4,7 +4,7 @@
   <div class="content">
   {% if post.content contains '<!--more-->' %}
     {{ post.content | truncate_after: '<!--more-->' }}
-    <a href="{{ post.url }}#read-more" class="read_more">weiterlesen</a>
+    <p class="read_more"><a href="{{ post.url }}#read-more">weiterlesen</a></p>
   {% else %}
     {{ post.content }}
   {% endif %}
