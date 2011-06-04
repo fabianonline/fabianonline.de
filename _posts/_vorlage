@@ -1,16 +1,15 @@
 ---
 layout: post
-title: "Titel"
+title: "TITLE"
 published: true
 tags:
   - tag_1
   - tag_2
-description: -|
-  text
-  Bla,
-  bla,
-  bla.
 ---
 
 der eigentliche blogeintrag
+
+<!--more-->
+
+Und noch mehr Text nach dem Trenner.
 
