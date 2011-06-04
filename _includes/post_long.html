@@ -3,10 +3,10 @@
 
   <div class="content">
     {% unless post %}
-      {{content}}
+      {{content | replace: '<!--more-->','<a name="read-more"></a>' }}
       {% assign post = page %}
     {% else %}
-      {{ post.content }}
+      {{ post.content | replace: '<!--more-->','<a name="read-more"></a>' }}
     {% endunless %}
   </div>
 

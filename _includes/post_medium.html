@@ -2,9 +2,9 @@
   {% include post_header.html %}
 
   <div class="content">
-  {% if post.excerpt %}
-    {{ post.excerpt }}
-    <a href="{{ post.url }}" class="read_more">weiterlesen</a>
+  {% if post.content contains '<!--more-->' %}
+    {{ post.content | truncate_after: '<!--more-->' }}
+    <a href="{{ post.url }}#read-more" class="read_more">weiterlesen</a>
   {% else %}
     {{ post.content }}
   {% endif %}

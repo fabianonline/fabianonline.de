@@ -4,17 +4,6 @@ title: "Ade, Wordpress. Hallo, Jekyll."
 published: true
 tags:
   - blog
-excerpt: |-
-    Ich habe es endlich getan. In diesem Blog war ja schon länger nicht mehr
-    wirklich viel los; allerdings hatte ich doch schon noch vor, hier mal wieder
-    etwas mehr Aktivität zu zeigen.
-
-    Eine Sache gab es dabei jedoch, die auf mich irgendwie "abstoßend" wirkte:
-    Wordpress. Ich meine, Wordpress ist eine coole Blog-Software. Allerdings
-    benötigt sie natürlich recht viel Leistung (PHP-Skripte, MySQL-Server) und
-    stellt natürlich auch ein gewisses Risiko für den Server da. Denkt man mal
-    nicht daran, ein Update einzuspielen, hat man u.U.  auf einmal irgendwelche
-    Hacker auf dem Server...
 ---
 
 Ich habe es endlich getan. In diesem Blog war ja schon länger nicht mehr
@@ -27,6 +16,8 @@ benötigt sie natürlich recht viel Leistung (PHP-Skripte, MySQL-Server) und
 stellt natürlich auch ein gewisses Risiko für den Server da. Denkt man mal
 nicht daran, ein Update einzuspielen, hat man u.U.  auf einmal irgendwelche
 Hacker auf dem Server...
+
+<!--more-->
 
 Also musste eine neue Software her. Und die heißt
 "[Jekyll](https://github.com/mojombo/jekyll)".  Jekyll erstellt aus Posts, die
