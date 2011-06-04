@@ -42,7 +42,7 @@ in letzter Zeit eh eine gewisse Paranoia bei neuen Kommentaren entwickelt, weil
 ich überall Leute witterte, die nur scharf darauf waren, einen Link zu ihrer
 Seite irgendo unterzubringen...
 
-Um das ganze richtig cool zu machen, liegen die gesamten Quell-Sateien für
+Um das Ganze richtig cool zu machen, liegen die gesamten Quell-Dateien für
 dieses Blog [bei github](https://github.com/fabianonline/fabianonline.de), sind
 also völlig frei einsehbar und können euch vielleicht als Vorlage oder
 "Nachschlagewerk" dienen, wenn ihr selber mal mit Jekyll spielen wollt.
