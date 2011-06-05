@@ -1,6 +1,11 @@
---- layout: post title: "Umzug von Wordpress zu Jekyll" published: true tags:
+---
+layout: post
+title: "Umzug von Wordpress zu Jekyll"
+published: true
+tags:
   - blog
-  - howto ---
+  - howto
+---
 
 Nachdem ich jetzt schon das eine oder andere Mal gefragt wurde, wie ich denn
 die Inhalte meiner alten Blogs zu Jekyll migriert habe, gibt es hier dann also
@@ -50,14 +55,14 @@ ruby -pi.bak -e "gsub(/http:\/\/blog.fabianonline.de\/wp-content\/uploads\//,
   '/uploads/images/')" _posts/*.markdown
 {% endhighlight %}
 
-Dieser Befehl geht alle passenden Dateien (_posts/*.markdown) durch, sucht und
+Dieser Befehl geht alle passenden Dateien (_posts/\*.markdown) durch, sucht und
 ersetzt dort "http://blog.fabianonline.de/wp-content/uploads/" durch
 "/uploads/images/" und erzeugt, wenn eine Datei geändert wurde, eine passende
 Backup-Datei mit ".bak" als Endung. Das kann man ganz wunderbar nutzen, um
 stichprobenartig Dateien a la "Vorher / Nachher" zu vergleichen und zu schauen,
 ob auch alles geklappt hat. Ich musste bei mir das gleiche nochmal für
 /wp-content/main machen, weil ich das PhotoQ-Plugin für Wordpress nutzte,
-welches dort die Bilder speicherte. Danach dann halt mal eben "rm *.bak" und
+welches dort die Bilder speicherte. Danach dann halt mal eben "rm \*.bak" und
 schon ist der ordner wieder wunderschön aufgeräumt.
 
 Nachdem nun die Links in den markdown-Files angepasst waren, reichte ein
