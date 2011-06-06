@@ -27,15 +27,15 @@ ruby -r 'wordpress' -e 'Jekyll::WordPress.process(
   "<DB_NAME>", "<DB_USER>", "<DB_PASS>");'
 {% endhighlight %}
 
-Statt <DB_NAME> setzt ihr natürlich den Namen der MySQL-DB ein und als
-<DB_USER> und <DB_PASS> passende Zugangsdaten. Das Skript geht stillschweigend
+Statt `<DB_NAME>` setzt ihr natürlich den Namen der MySQL-DB ein und als
+`<DB_USER>` und `<DB_PASS>` passende Zugangsdaten. Das Skript geht stillschweigend
 davon aus, dass der MySQL-Server auf localhost läuft. Ansonsten sollte es für
 euch nicht schwer sein, das Skript anzupassen.
 
-Das Skript erstellt dann automatisch einen Ordner "_posts", in dem für jeden
+Das Skript erstellt dann automatisch einen Ordner `_posts`, in dem für jeden
 Blogeintrag des Wordpress-Blogs eine Post-Datei für Jekyll liegt.
 
-Im Prinzip kann man die Dateien dann einfach in den _posts-Ordner von Jekyll
+Im Prinzip kann man die Dateien dann einfach in den `_posts`-Ordner von Jekyll
 werfen und ist schon fertig damit - bei mir war das allerdings nicht ganz so einfach.
 In den Wordpress-Posts waren die Links zu Bildern mit absoluten Pfaden angegeben.
 Im Standard-Wordpress-Verzeichnis-Layout. Also z.B.
@@ -55,18 +55,18 @@ ruby -pi.bak -e "gsub(/http:\/\/blog.fabianonline.de\/wp-content\/uploads\//,
   '/uploads/images/')" _posts/*.markdown
 {% endhighlight %}
 
-Dieser Befehl geht alle passenden Dateien (_posts/\*.markdown) durch, sucht und
+Dieser Befehl geht alle passenden Dateien (`_posts/\*.markdown`) durch, sucht und
 ersetzt dort "http://blog.fabianonline.de/wp-content/uploads/" durch
 "/uploads/images/" und erzeugt, wenn eine Datei geändert wurde, eine passende
-Backup-Datei mit ".bak" als Endung. Das kann man ganz wunderbar nutzen, um
+Backup-Datei mit `.bak` als Endung. Das kann man ganz wunderbar nutzen, um
 stichprobenartig Dateien a la "Vorher / Nachher" zu vergleichen und zu schauen,
 ob auch alles geklappt hat. Ich musste bei mir das gleiche nochmal für
-/wp-content/main machen, weil ich das PhotoQ-Plugin für Wordpress nutzte,
-welches dort die Bilder speicherte. Danach dann halt mal eben "rm \*.bak" und
+`/wp-content/main` machen, weil ich das PhotoQ-Plugin für Wordpress nutzte,
+welches dort die Bilder speicherte. Danach dann halt mal eben `rm \*.bak` und
 schon ist der ordner wieder wunderschön aufgeräumt.
 
 Nachdem nun die Links in den markdown-Files angepasst waren, reichte ein
-einfaches "cp wordpress_blog/wp-content/uploads/* jekyll_blog/uploads/images",
+einfaches `cp wordpress_blog/wp-content/uploads/* jekyll_blog/uploads/images`,
 um die ganzen Dateien in den Root des Jekyll-Ordners zu kopieren. Nach einem
 Durchlauf von Jekyll sollten dann jetzt die "neuen" "alten" Posts im Ergebnis
 auftauchen und auch die Bilder-Links funktionieren.
