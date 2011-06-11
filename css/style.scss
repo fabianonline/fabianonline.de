@@ -158,6 +158,20 @@ header#head {
                 padding-left: 10px;
             }
 
+            pre {
+                overflow-x: scroll;
+            }
+
+            code {
+                background-color: #e6e6e6;
+                border: 1px solid #ddd;
+            }
+
+            div.highlight code {
+                border: none !important;
+                background-color: transparent !important;
+            }
+
             ol, ul {
                 padding-left: 21px;
                 margin-top: 0px;
