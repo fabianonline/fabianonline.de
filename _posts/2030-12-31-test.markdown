@@ -1,18 +1,16 @@
 ---
 layout: post
-title: "Titel"
-published: false
+title: "Test"
+published: true
 tags:
   - tag_1
   - tag_2
-excerpt: |-
-  text
-  Bla,
-  bla,
-  bla.
 ---
 
 Ein Blogeintrag mit vielen Tests.
+
+<!--more-->
+
 Hier mal ein etwas längerer Fließtext (u.a. mit Sonderzeichen und so). Lorem ipsum dolor sit amet,
 consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna 
 aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet 
@@ -72,6 +70,8 @@ Code-Blöcke
 {% highlight ruby %}
 puts "Ruby ist cool."
 puts "Ja, wirklich"*5
+# Dies ist zwar ein Kommentar, gleichzeitig jedoch auch eine recht lange Zeile in einem Code-Block, die helfen soll, zu verdeutlichen, was in dem Falle passiert.
+"oder auch als String, also als echtes \"Sprachobjekt\"".chars.map{|c| c+1}.each{|c| puts c.value}
 {% endhighlight %}
 
 Oder aber auch Code wie z.B. `echo foo();` mitten im Text.

@@ -6,6 +6,7 @@ rdiscount:
   extensions: []
 markdown: rdiscount
 paginate: 10
+future: false
 
 exclude: [
     Capfile
