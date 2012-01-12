@@ -56,3 +56,7 @@ Rest den Aufwand und die Kosten jede Woche noch wert sind.
 > 
 > Mit freundlichen Grüßen,  
 > Fabian Schlenz
+>
+> PS: Ich werde diese Mail im Internet veröffentlichen und würde Ihre
+Antwort gerne ebenfalls hinzufügen. Falls Sie dies nicht wünschen,
+lassen Sie es mich bitte wissen.
