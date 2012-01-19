@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Brief an das CineStar"
+title: "Brief an das CineStar, UPDATED"
 published: true
 tags:
 ---
@@ -60,3 +60,31 @@ Rest den Aufwand und die Kosten jede Woche noch wert sind.
 > PS: Ich werde diese Mail im Internet veröffentlichen und würde Ihre
 Antwort gerne ebenfalls hinzufügen. Falls Sie dies nicht wünschen,
 lassen Sie es mich bitte wissen.
+
+**[UPDATE]** Einen Tag später bekam ich eine Antwort von Herrn Gülker, die ich leider
+erst jetzt in meinem Spam-Ordner entdeckte:
+
+> Sehr geehrter Herr Schlenz,
+> 
+> vielen Dank für Ihren Brief. Ich freue mich über Ihr Interesse an unserer
+Sneak und Ihr Lob für Judith und Marco, die in den letzten Jahren die Sneak im
+CS DO so engagiert betreut haben.
+> 
+> Ihr Sorge, die Veränderungen könnten etwas mit dem Ausfall am 05.01.12 zu tun
+haben, ist unbegründet. Vielmehr wollte ich Veränderungen schon früher,
+spätestens jedoch zum Beginn diesen Jahres durchführen. Aus verschiedenen
+Gründen hänge ich meinem selbstgesteckten Zeitplan hinterher, aber einen Plan
+für 2012 wollte ich ungern erst im Mai 2012 verkünden und umsetzen.
+> 
+> Sie können sicher sein, dass ich mir diese Entscheidung gut überlegt habe, da
+ich weiß, dass sie einen erheblichen Einschnitt in der Geschichte der Sneak im
+CS DO bedeutet. Und ebenso sicher können Sie sein, dass ich eine so
+weitreichende Entscheidung nicht treffe, um sie nach kurzer Zeit wieder zu
+revidieren.
+> 
+> Ich würde mich freuen, wenn Sie mir nach einiger Zeit (falls Sie unter den
+gegebenen Umständen überhaupt noch weiterhin donnerstags unser Gast sein
+möchten) noch einmal ein Feedback zukommen lassen würden.
+> 
+> Mit freundlichen Grüßen,  
+> Carsten Gülker
