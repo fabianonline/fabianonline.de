@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Mein perfekter Twitter Client"
+title: 'Mein "perfekter" Twitter Client'
 published: true
 ---
 
