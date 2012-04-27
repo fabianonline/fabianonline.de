@@ -3,6 +3,9 @@ set :repository,  "git://github.com/fabianonline/fabianonline.de.git"
 set :deploy_to, "/srv/fabian/www/jekyll"
 set :use_sudo, false
 set :deploy_via, :remote_cache
+set :keep_releases, 3
+
+after "deploy:update", "deploy:cleanup"
 
 set :scm, :git
 # Or: `accurev`, `bzr`, `cvs`, `darcs`, `git`, `mercurial`, `perforce`, `subversion` or `none`
