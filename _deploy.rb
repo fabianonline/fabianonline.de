@@ -24,3 +24,7 @@ namespace :deploy do
         run "cd #{release_path} && sass --update css/ && time jekyll"
     end
 end
+
+task :local do
+	run_locally "jekyll --limit_posts 5"
+end
