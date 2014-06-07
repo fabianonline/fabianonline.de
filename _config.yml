@@ -9,7 +9,6 @@ paginate: 10
 future: false
 
 exclude: [
-    Capfile,
     tasks
 ]
 
