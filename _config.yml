@@ -1,4 +1,4 @@
-pygments: true
+highlighter: pygments
 #lsi: true
 permalink: pretty
 base_url: ""
@@ -9,7 +9,8 @@ paginate: 10
 future: false
 
 exclude: [
-    Capfile
+    Capfile,
+    tasks
 ]
 
 # user defined variables

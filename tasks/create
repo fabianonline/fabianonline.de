@@ -1,0 +1,63 @@
+#!/usr/bin/env ruby
+
+post_dir = File.join(File.dirname(__FILE__), "..", "_posts")
+
+title = ARGV[0]
+slug = title.downcase.
+    gsub("ä", "ae").
+    gsub("ö", "oe").
+    gsub("ü", "ue").
+    gsub("ß", "ss").
+    gsub(/[^a-z0-9\- ]/, "").
+    gsub(/ +/, "-").
+    gsub(/-+/, "-")
+filename = "#{ Time.now.strftime("%Y-%m-%d") }-#{slug}.markdown"
+
+content = <<END
+---
+layout: post
+title: "#{title}"
+published: true
+tags:
+- tag_1
+- tag_2
+---
+
+Ich bin ein Blogeintrag!
+
+<!--more-->
+
+Sogar mit einem eigenen Trenner. Wie oben.  <<zwei Leerzeichen>>
+Mit einem Zeilenumbruch. Text in **fett** und _kursiv_.
+
+* Listen.
+* Mehreren.
+
+1. Sogar nummeriert.
+2. Manchmal.
+
+Und [Links](http://google.de "Google").
+
+    Code.
+	(Ja, das sind 4 Leerzeichen am Anfang.)
+
+| Ganz besonders | Ja, wirklich! |
+|----------------|---------------|
+| Eine Tabelle.  | Ernsthaft!    |
+
+![Ein Bild](/files/image.png)
+
+{% highlight ruby linenos %}
+puts "Syntax highlighting!"
+puts "Ist das cool!"
+# das 'linenos' kann man weglassen, dann gibt es keine Zeilennummern.
+{% endhighlight %}
+END
+
+File.open(File.join(post_dir, filename), "w") {|f|
+    f.puts(content)
+}
+
+puts "Created => #{File.join(post_dir, filename)}"
+
+exec("vim", File.join(post_dir, filename))

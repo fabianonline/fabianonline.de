@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+sass --update css/ && jekyll build && rsync -crvz --delete _site/ vela:html/domains/blog.fabianonline.de/
